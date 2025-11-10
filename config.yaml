@@ -56,6 +56,9 @@ params:
       - name: Resume
         url: "https://drive.google.com/file/d/1mK5tB4q8yOQYlwm-jqXb1SZp7wUtZyFk/view?usp=drive_link"
         style: "primary"
+      - name: AI/ML Projects
+        url: "https://olympus.mygreatlearning.com/feed/karan-raj-sharma/8dd48cc163a5dab153bcff152b19cc34d074d0b9"
+        style: "secondary"    
    
   # List View
   hideDescriptionInList: false

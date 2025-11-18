@@ -1,7 +1,6 @@
 ---
 title: "Education and Certifications"
 url: "/education"
-tags: ["Artificial Intelligence (AI)", "Machine Learning (ML)","Agentic AI","RAG","MLOps","AI Engineering","Python", "R Programming","Data Wrangling","Microsoft Power Platform","PowerBI","Streamlit" ]
 ---
 ### Education
 | Degree               | Institution               | Year     | Location         |
@@ -19,3 +18,16 @@ tags: ["Artificial Intelligence (AI)", "Machine Learning (ML)","Agentic AI","RAG
 | Certified Intelligent Automation Professional (CIAP) | Institute for Robotics, Process Automation & Artificial Intelligence (IRPA AI)           | 2021     | Online |
 | Agile Scrum Master | SimpliLearn           | 2019     | Online |
 | Lean Six Sigma Black Belt | Total Quality Management Insititute (TQMI)     | 2012     | Delhi NCR, India |
+
+### Technology Skills
+| Category           | Technology                     |
+|--------------------|--------------------------------|
+| Programming        | Python and R                    |
+| Cloud              | AWS and Azure                   |
+| Statistical Modelling|EDA, Inferential Analytics, Hypothesis testing & Probability|
+| Generative AI      | Gen. AI (Llama, Mistral), NLP, Prompt Engineering, RAG Systems, Vector DB
+| Enginnering        | MLOps and LLMOps|
+| Machine Learning|Decision Tree, Random Forest, K-Means Clustering, KNN, Regression, Logistic Regression, Naïve Bayes, Support Vector Machines, Support Vector Regression, Principal Component Analysis, XG Boost|
+| Text-Analytics     | Text Data Cleaning, TF-IDF, Distance Measures in Text, Sentimental Analysis, TopicModeling (LDA), Named Entity Recognition (NERs), POS Tagging|
+
+

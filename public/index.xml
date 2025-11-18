@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How AI Is Disrupting Project Management</title>
+      <link>http://localhost:1313/blog/ai-disrupting-pm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ai-disrupting-pm/</guid>
+      <description>Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025.</description>
+    </item>
+    
+    <item>
+      <title>AI Glossary for Everyone</title>
+      <link>http://localhost:1313/blog/ai-glossary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ai-glossary/</guid>
+      <description>Top AI terms that every AI and ML professional must know</description>
+    </item>
+    
+    <item>
       <title>Avoiding Common Pitfalls in AI Product Design</title>
       <link>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -161,6 +179,45 @@
           &lt;td&gt;Total Quality Management Insititute (TQMI)&lt;/td&gt;
           &lt;td&gt;2012&lt;/td&gt;
           &lt;td&gt;Delhi NCR, India&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;technology-skills&#34;&gt;Technology Skills&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Category&lt;/th&gt;
+          &lt;th&gt;Technology&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Programming&lt;/td&gt;
+          &lt;td&gt;Python and R&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cloud&lt;/td&gt;
+          &lt;td&gt;AWS and Azure&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Statistical Modelling&lt;/td&gt;
+          &lt;td&gt;EDA, Inferential Analytics, Hypothesis testing &amp;amp; Probability&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Generative AI&lt;/td&gt;
+          &lt;td&gt;Gen. AI (Llama, Mistral), NLP, Prompt Engineering, RAG Systems, Vector DB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Enginnering&lt;/td&gt;
+          &lt;td&gt;MLOps and LLMOps&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Machine Learning&lt;/td&gt;
+          &lt;td&gt;Decision Tree, Random Forest, K-Means Clustering, KNN, Regression, Logistic Regression, Naïve Bayes, Support Vector Machines, Support Vector Regression, Principal Component Analysis, XG Boost&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Text-Analytics&lt;/td&gt;
+          &lt;td&gt;Text Data Cleaning, TF-IDF, Distance Measures in Text, Sentimental Analysis, TopicModeling (LDA), Named Entity Recognition (NERs), POS Tagging&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>

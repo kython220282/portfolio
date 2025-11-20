@@ -46,7 +46,7 @@ params:
   profileMode:
     enabled: true
     title: "Karan Raj Sharma"
-    subtitle: Hi 👋 I'm Karan, a techno functional leader with 22+ years of experience of solving complex business problems with the help of Machine Learning and Artifical Intelligence (AI). As an AI Consultant and Engagement Lead in the Digital team at [**EXL**](https://www.exlservice.com/), I'm helping clients in APAC to kickstart their AI Journey and transform how they do business. I am an AI engineering enthusiast who enjoys sharing his learning journey on this blog. When I’m not immersed in AI, you’ll probably find me cruising on my motorbike on scenic routes or experimenting with new recipes in the kitchen. Let's connect and create something awesome together!
+    subtitle: Hi 👋 I'm Karan, a Techno Functional Leader with 22+ years of experience of solving complex business problems with the help of Machine Learning and Artifical Intelligence (AI). As an AI Consultant and Engagement Lead in the Digital team at [**EXL**](https://www.exlservice.com/), I'm helping clients in APAC to kickstart their AI Journey and transform how they do business. I am an AI engineering enthusiast who enjoys sharing his learning journey on this blog. When I’m not immersed in AI, you’ll probably find me cruising on my motorbike on scenic routes or experimenting with new recipes in the kitchen. Let's connect and create something awesome together!
 
     imageUrl: "home/casual-small-square2.jpeg"
     imageWidth: 220
@@ -58,7 +58,7 @@ params:
       - name: AI/ML Projects
         url: "https://olympus.mygreatlearning.com/feed/karan-raj-sharma/8dd48cc163a5dab153bcff152b19cc34d074d0b9"
         style: "secondary"    
-   
+
   # List View
   hideDescriptionInList: false
 

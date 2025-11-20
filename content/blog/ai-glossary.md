@@ -6,7 +6,7 @@ tags: ["AI Glossary", "AI Key Terms"]
 weight: 101
 cover:
   image: "/blog/ai-glossary/ai_wordcloud.jpeg"
-dateString: c
+dateString: November 2025
 draft: false
 meta_title: "AI Glossary"
 meta_description: "Top AI terms that every AI and ML professional must know"
@@ -138,3 +138,8 @@ For each term, we’ll provide:
 **Autonomous AI**
 - **I:** AI systems capable of operating independently without human intervention. Self-driving cars navigate and make driving decisions autonomously.
 - **L:** AI that can work by itself, like a self-driving car that knows where to go without a driver.
+-------------
+
+**Last Updated:** November 11, 2025
+
+**Author:** Karan Raj Sharma

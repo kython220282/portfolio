@@ -42,3 +42,8 @@ Here are some common pitfalls:
 - **Lack of Transparency and Explainability:** For AI solutions to gain trust and acceptance, it's crucial to provide transparency into how they work and make decisions. This involves developing explainable AI methods that make model predictions understandable and interpretable for stakeholders.
 
 By recognising and addressing these common pitfalls, organisations can increase their chances of success in designing and deploying AI products that deliver real business value while mitigating potential risks and ethical concerns. Remember, a successful AI product requires a holistic approach that considers not only the technical aspects of AI but also the human, organizational, and societal implications.
+
+----------------------
+**Last Updated:** November 9, 2025
+
+**Author:** Karan Raj Sharma

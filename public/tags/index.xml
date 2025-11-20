@@ -43,15 +43,6 @@
     </item>
     
     <item>
-      <title>AI Engineering</title>
-      <link>http://localhost:1313/tags/ai-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ai-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AI Glossary</title>
       <link>http://localhost:1313/tags/ai-glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,20 +79,20 @@
     </item>
     
     <item>
+      <title>AI Tools</title>
+      <link>http://localhost:1313/tags/ai-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analytics</title>
       <link>http://localhost:1313/tags/analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artificial Intelligence (AI)</title>
-      <link>http://localhost:1313/tags/artificial-intelligence-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/artificial-intelligence-ai/</guid>
       <description></description>
     </item>
     
@@ -129,6 +120,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/business-transformation-leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Change Management</title>
+      <link>http://localhost:1313/tags/change-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/change-management/</guid>
       <description></description>
     </item>
     
@@ -205,20 +205,20 @@
     </item>
     
     <item>
-      <title>Data Wrangling</title>
-      <link>http://localhost:1313/tags/data-wrangling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/data-wrangling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Design Best Practices</title>
       <link>http://localhost:1313/tags/design-best-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/design-best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Transformation</title>
+      <link>http://localhost:1313/tags/digital-transformation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/digital-transformation/</guid>
       <description></description>
     </item>
     
@@ -255,6 +255,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/end-to-end-workflow-digitization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enterprise AI</title>
+      <link>http://localhost:1313/tags/enterprise-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/enterprise-ai/</guid>
       <description></description>
     </item>
     
@@ -367,33 +376,6 @@
     </item>
     
     <item>
-      <title>Machine Learning (ML)</title>
-      <link>http://localhost:1313/tags/machine-learning-ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/machine-learning-ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft Power Platform</title>
-      <link>http://localhost:1313/tags/microsoft-power-platform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/microsoft-power-platform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MLOps</title>
-      <link>http://localhost:1313/tags/mlops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/mlops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Multi-Geo</title>
       <link>http://localhost:1313/tags/multi-geo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -412,11 +394,11 @@
     </item>
     
     <item>
-      <title>PowerBI</title>
-      <link>http://localhost:1313/tags/powerbi/</link>
+      <title>PMO</title>
+      <link>http://localhost:1313/tags/pmo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/powerbi/</guid>
+      <guid>http://localhost:1313/tags/pmo/</guid>
       <description></description>
     </item>
     
@@ -453,6 +435,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/program-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>http://localhost:1313/tags/project-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/project-management/</guid>
       <description></description>
     </item>
     
@@ -502,24 +493,6 @@
     </item>
     
     <item>
-      <title>R Programming</title>
-      <link>http://localhost:1313/tags/r-programming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/r-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG</title>
-      <link>http://localhost:1313/tags/rag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/rag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>React</title>
       <link>http://localhost:1313/tags/react/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -543,15 +516,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/strategic-cost-savings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Streamlit</title>
-      <link>http://localhost:1313/tags/streamlit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/streamlit/</guid>
       <description></description>
     </item>
     

@@ -1,15 +1,14 @@
 ---
-title: "How AI Is Disrupting Project Management"
+title: "How AI Is Disrupting Project Management?"
 description: "Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025."
 keywords: ["artificial intelligence", "project management", "AI automation", "predictive analytics", "resource allocation", "risk management", "AI tools", "project scheduling", "PMO transformation", "AI implementation"]
 tags: ["AI", "Project Management", "Digital Transformation", "Automation", "AI Tools", "Enterprise AI", "PMO", "Change Management"]
 weight: 1
 cover:
-  #image: "/blog/ai-distrupting-PM/Designer.png"
   image: "/blog/ai-disrupting-PM/Designer.png"
 dateString: November 2025
 draft: false
-meta_title: "How AI Is Disrupting Project Management"
+meta_title: "How AI Is Disrupting Project Management?"
 meta_description: "Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025."
 meta_author: Karan Raj Sharma
 meta_date: 2025-11-19

@@ -5,7 +5,7 @@ keywords: ["Document Classification", "Document Tagging","LLM Cost Optimization"
 tags: ["Document Classification", "LLMs", "Agentic AI", "MLOps", "LLMOps", "AI Engineering"]
 weight: 103
 cover:
-  image: "/blog/avoiding-pitfalls-in-AI-Product/cover.png"
+  image: "/blog/doc-tagging/cover.png"
 
 dateString: January 2026
 draft: False

@@ -3,12 +3,12 @@ title: "Document Tagging/Classification in the era of LLM"
 description: "Why LLM-first and agentic-first approaches often waste money for bounded document problems—and how a cost-optimized hybrid workflow (Rules → ML → Embeddings → LLM fallback) fixes it."
 keywords: ["Document Classification", "Document Tagging","LLM Cost Optimization","Hybrid AI Architecture","LLMOps","MLOps"]
 tags: ["Document Classification", "LLMs", "Agentic AI", "MLOps", "LLMOps", "AI Engineering"]
-weight: 102
+weight: 103
 cover:
   image: "/blog/avoiding-pitfalls-in-AI-Product/cover.png"
 
 dateString: January 2026
-draft: True
+draft: False
 meta_title: "Document Tagging/Classification in the Era of LLMs — A Cost-Optimized Hybrid Approach"
 meta_description: "Avoid hype-driven LLM/agentic designs for bounded document workflows. Learn a hybrid pattern that cuts cost, improves reliability, and stays auditable."
 meta_author: Karan Raj Sharma

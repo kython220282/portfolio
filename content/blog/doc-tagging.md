@@ -27,7 +27,7 @@ This post is for **AI engineers, AI consultants and AI Cost Managers** building 
 
 ---
 
-### The engineer’s storyline: how LLM spend sneaks into “simple” pipelines
+**The engineer’s storyline: how LLM spend sneaks into “simple” pipelines**
 A document classification project usually starts with a bounded ask:
 
 - “Classify documents into multiple categories.”
@@ -51,7 +51,7 @@ The fix is not “ban LLMs.” The fix is **engineering discipline**: treat prom
 
 ---
 
-#### What changes in the LLM era (and what doesn’t)
+**What changes in the LLM era (and what doesn’t)**
 
 **What changed:**  
 LLMs are fantastic at long-tail interpretation, messy text, and exceptions—especially when you give them the right context and constraints (Schmid, 2025) [[2]].
@@ -63,7 +63,7 @@ The practical mindset shift is the same one disciplined builders use for AI-assi
 
 ---
 
-#### The core anti-pattern: using LLMs (and agents) as the default engine
+**The core anti-pattern: using LLMs (and agents) as the default engine**
 
 I see three recurring failure modes across teams:
 
@@ -80,7 +80,7 @@ The meta-lesson: **LLM applications still require engineering structure, evaluat
 
 ---
 
-#### A cost-optimized hybrid pattern (LLM as fallback, not backbone)
+**A cost-optimized hybrid pattern (LLM as fallback, not backbone)**
 
 The reliable pattern for bounded document classification is a tiered decision workflow:
 
@@ -106,7 +106,7 @@ This is the same “engineering discipline” theme you see from practitioners b
 
 ---
 
-#### “Split then tag” (because scans are messy)
+**“Split then tag” (because scans are messy)**
 
 For multi-document scans, the correct approach is:
 
@@ -131,7 +131,7 @@ This is where a lot of money is saved: **you don’t OCR and send entire documen
 
 ---
 
-#### Cost management: how to quantify the waste (CFO-credible, engineer-friendly)
+**Cost management: how to quantify the waste (CFO-credible, engineer-friendly)**
 
 If you want to control cost, you need one KPI that’s hard to game:
 
@@ -165,7 +165,7 @@ If you want more industry examples, maintain a case-study library and compare pa
 
 ---
 
-#### The engineering playbook: make the hybrid path the happy path
+**The engineering playbook: make the hybrid path the happy path**
 
 Here are the tactics that actually keep costs down without sacrificing quality.
 
@@ -216,7 +216,7 @@ Use the feedback loop to move volume from expensive tiers to cheap tiers.
 
 ---
 
-#### Closing note (for CDOs and platform owners)
+**Closing note (for CDOs and platform owners)**
 If you’re funding GenAI initiatives, require this in every design review:
 
 - Show me **CPCO** and **P95 latency**.

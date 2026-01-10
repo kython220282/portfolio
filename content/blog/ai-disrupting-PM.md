@@ -3,7 +3,7 @@ title: "How AI Is Disrupting Project Management?"
 description: "Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025."
 keywords: ["artificial intelligence", "project management", "AI automation", "predictive analytics", "resource allocation", "risk management", "AI tools", "project scheduling", "PMO transformation", "AI implementation"]
 tags: ["AI", "Project Management", "Digital Transformation", "Automation", "AI Tools", "Enterprise AI", "PMO", "Change Management"]
-weight: 1
+weight: 4
 cover:
   image: "/blog/ai-disrupting-PM/Designer.png"
 dateString: November 2025

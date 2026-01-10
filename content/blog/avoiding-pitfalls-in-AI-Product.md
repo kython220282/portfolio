@@ -3,7 +3,7 @@ title: "Avoiding Common Pitfalls in AI Product Design"
 description: "Avoiding common pitfalls like Overestimating AI Capabilities and Hype-Driven Development"
 keywords: ["Why AI Products fail", "Ensure AI Products Success"]
 tags: ["AI Products", "Product Development", "Ethical AI", "Design Best Practices", "AI Leaders"]
-weight: 102
+weight: 3
 cover:
   image: "/blog/avoiding-pitfalls-in-AI-Product/cover.png"
 

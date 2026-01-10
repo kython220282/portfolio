@@ -27,7 +27,7 @@ This post is for **AI engineers, AI consultants and AI Cost Managers** building 
 
 ---
 
-#### The engineer’s storyline: how LLM spend sneaks into “simple” pipelines
+### The engineer’s storyline: how LLM spend sneaks into “simple” pipelines
 A document classification project usually starts with a bounded ask:
 
 - “Classify documents into multiple categories.”

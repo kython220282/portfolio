@@ -8,7 +8,7 @@ cover:
   image: "/blog/doc-tagging/cover.png"
 
 dateString: January 2026
-draft: False
+draft: True
 meta_title: "Document Tagging/Classification in the Era of LLMs — A Cost-Optimized Hybrid Approach"
 meta_description: "Avoid hype-driven LLM/agentic designs for bounded document workflows. Learn a hybrid pattern that cuts cost, improves reliability, and stays auditable."
 meta_author: Karan Raj Sharma

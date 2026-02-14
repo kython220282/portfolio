@@ -4,15 +4,13 @@
   <url>
     <loc>http://localhost:1313/blog/cloud-services/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/ml-boilerplate/</loc>
+    <loc>http://localhost:1313/projects/ml-boilerplate/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/ai-glossary/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/ai-disrupting-pm/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/automated-image-captioning/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/todo-list-app/</loc>
   </url><url>
@@ -70,13 +68,9 @@
   </url><url>
     <loc>http://localhost:1313/tags/cloud-architecture/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/cnn/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/context-engineering/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/cost-reduction/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/crnn/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
   </url><url>
@@ -93,8 +87,6 @@
     <loc>http://localhost:1313/tags/digital-transformation-leadership/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/digtial-transformation/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/dl/</loc>
   </url><url>
     <loc>http://localhost:1313/education/</loc>
   </url><url>
@@ -132,8 +124,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/llmops/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/lstm/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/machine-learning/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/mlops/</loc>
@@ -159,8 +149,6 @@
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/pytorch/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/quality-assurance/</loc>
   </url><url>

@@ -63,7 +63,3 @@ pip install mlops-boilerplate
 MLOps-Boilerplate is open-source software licensed under the MIT License. Contributions, issues, and feature requests are welcome! Feel free to fork the repository, submit pull requests, or open issues for discussion.
 
 If you find this project useful, please consider starring the repository on GitHub to show your support.
-
-## Tags
-
-Machine Learning, MLOps, Data Science, Open Source, Python, AI, DevOps, Data Engineering, Software Engineering

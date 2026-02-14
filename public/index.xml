@@ -17,10 +17,10 @@
     
     <item>
       <title>MLOps-Boilerplate: Production-Ready Machine Learning Framework</title>
-      <link>http://localhost:1313/blog/ml-boilerplate/</link>
+      <link>http://localhost:1313/projects/ml-boilerplate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ml-boilerplate/</guid>
+      <guid>http://localhost:1313/projects/ml-boilerplate/</guid>
       <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
     </item>
     
@@ -49,24 +49,6 @@
       
       <guid>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</guid>
       <description>Avoiding common pitfalls like Overestimating AI Capabilities and Hype-Driven Development</description>
-    </item>
-    
-    <item>
-      <title>Automated Image Captioning (Bachelor Thesis)</title>
-      <link>http://localhost:1313/projects/automated-image-captioning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/automated-image-captioning/</guid>
-      <description>Can computers summarize the contents of an image?</description>
-    </item>
-    
-    <item>
-      <title>Todo List App</title>
-      <link>http://localhost:1313/projects/todo-list-app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/todo-list-app/</guid>
-      <description>A Todo list web application built using React</description>
     </item>
     
     <item>

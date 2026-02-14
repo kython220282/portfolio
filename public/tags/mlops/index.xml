@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="http://localhost:1313/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLOps-Boilerplate: Production-Ready Machine Learning Framework</title>
-      <link>http://localhost:1313/blog/ml-boilerplate/</link>
+      <link>http://localhost:1313/projects/ml-boilerplate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ml-boilerplate/</guid>
+      <guid>http://localhost:1313/projects/ml-boilerplate/</guid>
       <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
     </item>
     

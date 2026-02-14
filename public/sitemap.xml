@@ -12,8 +12,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/todo-list-app/</loc>
-  </url><url>
     <loc>http://localhost:1313/experience/exl-2/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/sagility/</loc>
@@ -72,8 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/cost-reduction/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/customer-service/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/cx-journey/</loc>
@@ -98,19 +94,13 @@
   </url><url>
     <loc>http://localhost:1313/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/frontend-development/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/gcp/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/green-belt/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/healthcare-payer-operations/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/intelligent-process-automation-ipa/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/kaizen/</loc>
   </url><url>
@@ -156,8 +146,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/quality-governance/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/rpa/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
@@ -171,7 +159,5 @@
     <loc>http://localhost:1313/tags/us-clients/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/us-healthcare/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
   </url>
 </urlset>

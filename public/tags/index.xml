@@ -205,15 +205,6 @@
     </item>
     
     <item>
-      <title>CSS</title>
-      <link>http://localhost:1313/tags/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Customer Service</title>
       <link>http://localhost:1313/tags/customer-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -304,15 +295,6 @@
     </item>
     
     <item>
-      <title>Frontend Development</title>
-      <link>http://localhost:1313/tags/frontend-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/frontend-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GCP</title>
       <link>http://localhost:1313/tags/gcp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -340,29 +322,11 @@
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>http://localhost:1313/tags/html/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Intelligent Process Automation (IPA)</title>
       <link>http://localhost:1313/tags/intelligent-process-automation-ipa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/intelligent-process-automation-ipa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     
@@ -547,15 +511,6 @@
     </item>
     
     <item>
-      <title>React</title>
-      <link>http://localhost:1313/tags/react/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>RPA</title>
       <link>http://localhost:1313/tags/rpa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -597,15 +552,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/us-healthcare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/tags/web-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
     </item>
     

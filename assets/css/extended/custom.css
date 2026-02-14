@@ -1,0 +1,9 @@
+:root {
+    --main-width: 1000px;  /* Wider overall layout */
+}
+
+.post-content table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+}

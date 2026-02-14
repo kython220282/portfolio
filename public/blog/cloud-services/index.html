@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared | Karan Raj Sharma</title>
+<meta name="keywords" content="AWS, Azure, GCP, Cloud Services Cheat Sheet, Cloud Comparison, Agentic AI, AI Agents, Multi-Cloud, Cloud Architecture, AWS Bedrock, Azure OpenAI, Vertex AI">
+<meta name="description" content="Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/cloud-services/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.d02c4f5e9f962e10f9ef98cc042e2d4bffdb6bb22494a910116d7a64a8584db2.css" integrity="sha256-0CxPXp&#43;WLhD575jMBC4tS//ba7IklKkQEW16ZKhYTbI=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.555af97124d54bb1457985dd081b8f5616a48103aafeb30ac89fde835d65aa6c.js" integrity="sha256-VVr5cSTVS7FFeYXdCBuPVhakgQOq/rMKyJ/eg11lqmw="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/cloud-services/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared" />
+<meta property="og:description" content="Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/cloud-services/" />
+<meta property="og:image" content="http://localhost:1313/blog/cloud-comparison/cloud.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/blog/cloud-comparison/cloud.png" />
+<meta name="twitter:title" content="The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared"/>
+<meta name="twitter:description" content="Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://localhost:1313/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared",
+      "item": "http://localhost:1313/blog/cloud-services/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared",
+  "name": "The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared",
+  "description": "Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25+ services side-by-side with detailed descriptions and guidance for building agentic AI systems.",
+  "keywords": [
+    "AWS", "Azure", "GCP", "Cloud Services Cheat Sheet", "Cloud Comparison", "Agentic AI", "AI Agents", "Multi-Cloud", "Cloud Architecture", "AWS Bedrock", "Azure OpenAI", "Vertex AI"
+  ],
+  "articleBody": " The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared Introduction: Building Agentic AI in the Multi-Cloud Era Welcome to 2026, where agentic AI systems—autonomous agents that can reason, plan, use tools, and execute complex multi-step workflows—are no longer science fiction. They’re powering customer service, automating data analysis, orchestrating business processes, and even writing code.\nBut here’s the challenge: building production-ready AI agents requires the right cloud infrastructure. Whether you’re implementing:\n🤖 Customer service agents with RAG capabilities 📊 Data analysis agents that query databases and generate insights 🔧 DevOps agents that monitor systems and take corrective actions 💼 Business process agents that coordinate across multiple tools You need to understand which cloud services to use and how they map across AWS, GCP, and Azure.\nThis guide solves that problem. We’ll compare 25+ core services across all three cloud providers, but with a twist: every service is explained through the lens of building agentic AI systems.\nWhat You’ll Learn: ✅ Side-by-side comparison of AWS, GCP, and Azure services\n✅ How each service powers different components of AI agents\n✅ When to use each cloud provider for AI workloads\n✅ Cost optimization strategies for agent infrastructure\nLet’s dive in! 🚀\nCompute and Storage Services These services form the foundation of your agentic AI infrastructure—where your agents run, think, and store their memories.\nAWS GCP Azure What It Does Role in Agentic AI Systems EC2 Compute Engine Virtual Machines Resizable virtual servers with full OS control Agent Orchestration Layer: Hosts long-running agent controllers, runs GPU-enabled inference for custom models, executes multi-step reasoning workflows, manages agent state machines Lambda Cloud Functions Azure Functions Serverless, event-driven compute charged per invocation Stateless Agent Actions: Executes individual tool calls, triggers agent responses to events (emails, messages, webhooks), scales automatically for burst agent activity, powers micro-agent architectures ECS Cloud Run / GKE ACI / AKS Container orchestration for Docker applications Agent Microservices: Deploys specialized agent components (planner, executor, memory manager), enables polyglot agent stacks, provides service discovery for multi-agent systems EKS GKE AKS Managed Kubernetes for containerized workloads Distributed Agent Systems: Orchestrates complex multi-agent collaborations, manages agent auto-scaling and failover, provides service mesh for agent-to-agent communication, handles stateful agent deployments Lightsail Compute Engine (simple) VMs (simple) Simplified VPS with predictable pricing Agent Prototyping: Quick POC development for agent demos, hosts simple chatbot agents, runs development agent environments, low-cost testing infrastructure Elastic Beanstalk App Engine App Service PaaS that auto-handles deployment and scaling Agent API Deployment: Rapidly deploys agent endpoints, automatically scales agent web interfaces, simplifies CI/CD for agent applications, manages agent health monitoring S3 Cloud Storage Blob Storage Scalable object storage with 99.999999999% durability Agent Memory Store: Stores conversation histories for context, archives agent decision logs, hosts vector embeddings for RAG, maintains training data for agent fine-tuning, serves as agent document repository Glacier Archive/Coldline Archive Storage Low-cost archival storage with retrieval delays Agent Audit Trail: Archives historical agent interactions for compliance, stores long-term training datasets, maintains regulatory records of agent decisions, preserves deprecated agent versions EBS Persistent Disk Managed Disks Block storage volumes for virtual machines Agent State Persistence: Stores active agent memory and context, provides high-IOPS storage for vector databases, maintains agent checkpoints for recovery, hosts local model caches Database Services Databases are the memory systems of your AI agents—where they store knowledge, maintain context, and learn from interactions.\nAWS GCP Azure What It Does Role in Agentic AI Systems DynamoDB Firestore / Bigtable Cosmos DB NoSQL database with single-digit millisecond latency Agent Session Management: Stores real-time conversation state with sub-10ms reads, maintains agent context windows across interactions, tracks tool execution history, provides fast key-value lookups for agent decisions, scales automatically with agent traffic RDS Cloud SQL SQL Database Managed relational database (MySQL, PostgreSQL, etc.) Structured Agent Knowledge: Stores user profiles and preferences, maintains transactional logs for multi-step workflows, manages agent permissions and access control, provides ACID guarantees for critical agent operations Aurora Cloud Spanner SQL/Cosmos DB High-performance, cloud-native database High-Scale Agent Systems: Powers agents serving millions of users, provides read replicas for distributed agent fleets, manages complex agent relationship graphs, enables global agent deployments with low latency Redshift BigQuery Synapse Analytics Petabyte-scale data warehouse Agent Analytics \u0026 Learning: Analyzes agent performance metrics across thousands of interactions, identifies patterns in agent behavior for optimization, trains agents on historical aggregate data, generates insights dashboard for agent monitoring ElastiCache Memorystore Cache for Redis In-memory caching with microsecond latency Agent Response Acceleration: Caches frequently used agent responses (FAQ answers), stores hot embeddings for instant RAG retrieval, maintains active user session data, speeds up tool lookup and execution, reduces LLM API costs via caching Network Services Network services control how your agents communicate with users, external APIs, and each other.\nAWS GCP Azure What It Does Role in Agentic AI Systems VPC VPC Virtual Network Isolated network environment with security controls Agent Security Perimeter: Isolates agent infrastructure from public internet, creates private subnets for sensitive agent operations (PII handling), controls network access to vector databases and model endpoints, enables secure multi-agent communication Route 53 Cloud DNS Azure DNS Scalable DNS service with global routing Agent Endpoint Management: Routes users to nearest agent API endpoints, provides health checks for agent availability, enables blue-green deployments for agent updates, manages custom domains for agent interfaces API Gateway API Gateway / Apigee API Management Managed service for creating and securing APIs Agent Interface Layer: Exposes agent capabilities as REST/WebSocket APIs, manages authentication and authorization for agent access, implements rate limiting to prevent agent abuse, handles API versioning for backward compatibility, provides request/response transformation for tool calls Security and Monitoring Services Security and monitoring services ensure your agents are trustworthy, compliant, and observable.\nAWS GCP Azure What It Does Role in Agentic AI Systems IAM Cloud IAM AAD / RBAC Fine-grained identity and access management Agent Permission Framework: Defines what tools each agent can access, enforces least-privilege for agent operations, controls agent access to databases and APIs, audits agent permission usage, implements role-based access for multi-agent systems Cognito Firebase Auth / Identity Platform Azure AD B2C User authentication and session management User-Agent Authentication: Authenticates users interacting with agents, manages user sessions across agent conversations, enables SSO for enterprise agent platforms, controls user-specific agent permissions, tracks user identity across multi-turn interactions CloudWatch Cloud Monitoring Azure Monitor Monitoring, logging, and alerting service Agent Observability: Tracks agent response latency and success rates, monitors token usage and LLM costs, logs agent reasoning steps for debugging, alerts on agent failures or anomalies, creates dashboards for agent performance metrics CloudTrail Cloud Audit Logs Activity Log API call logging and audit trail Agent Compliance \u0026 Governance: Audits all agent actions and decisions, tracks which tools agents invoked, maintains immutable record for regulatory compliance, investigates agent security incidents, proves agent behavior for explainability CloudFormation Deployment Manager ARM Templates Infrastructure-as-Code for resource provisioning Agent Infrastructure Automation: Deploys agent stacks consistently across environments, versions agent infrastructure configurations, enables rapid agent environment replication, automates disaster recovery for agent systems, manages multi-region agent deployments Machine Learning and AI Services These are the brains of your agentic AI systems—the foundation models, knowledge bases, and training platforms.\nAWS GCP Azure What It Does Role in Agentic AI Systems SageMaker Vertex AI Azure ML End-to-end ML platform for training and deployment Agent Intelligence Layer: Fine-tunes foundation models for domain-specific agents, trains custom embedding models for RAG, hosts specialized models (classification, extraction), provides experiment tracking for agent optimization, manages model versions and A/B testing for agents Bedrock Vertex AI (Model Garden) Azure OpenAI Service Managed foundation model API access 🧠 Core Agent Reasoning Engine: Provides Claude, GPT-4, Llama for agent planning and execution, enables multi-model agent strategies (router patterns), offers built-in guardrails for safe agent outputs, includes Knowledge Bases for native RAG, powers agent tool selection and orchestration Kendra Vertex AI Search Cognitive Search ML-powered enterprise search with RAG Agent Knowledge Retrieval: Enables semantic search across enterprise documents, provides contextual information for agent responses, indexes unstructured data (PDFs, wikis, tickets) for agent access, ranks results by relevance for agent consumption, embeds directly into agent reasoning loops 🎯 Decision Matrix: Which Cloud for Your Agentic AI? Choose AWS When: ✅ You have existing AWS infrastructure\n✅ You need the most mature serverless ecosystem (Lambda)\n✅ You want built-in Knowledge Bases (Bedrock KB)\n✅ You need Claude from Anthropic (via Bedrock)\n✅ You’re building multi-region, high-scale agents\nBest For: Enterprise agentic AI, complex reasoning agents, regulated industries\nChoose GCP When: ✅ You need powerful data analytics (BigQuery) for agent learning\n✅ You’re building Kubernetes-native agent systems\n✅ You want Google’s models (Gemini, PaLM)\n✅ You need superior ML experimentation tools (Vertex AI)\n✅ Cost optimization is critical (BigQuery pricing)\nBest For: Data-intensive agents, research projects, multi-agent systems\nChoose Azure When: ✅ You need GPT-4 or OpenAI models (Azure OpenAI)\n✅ You’re in the Microsoft ecosystem (Teams, Office, SharePoint)\n✅ You need enterprise identity integration (Active Directory)\n✅ You want seamless hybrid cloud (on-prem + cloud agents)\n✅ You’re building agents for Microsoft 365\nBest For: Enterprise Microsoft shops, Teams bots, Office automation agents\n💰 Cost Comparison for Typical Agentic AI Workload Scenario: 100K agent interactions/month, each with:\n1 LLM call (500 tokens) 1 RAG retrieval 3 tool executions State storage Provider Monthly Cost Breakdown AWS $180-250 Bedrock: $100, Lambda: $30, DynamoDB: $20, Kendra: $50, S3: $10 GCP $150-220 Vertex AI: $90, Cloud Functions: $25, Firestore: $15, Search: $40, Storage: $10 Azure $170-240 Azure OpenAI: $95, Functions: $28, Cosmos DB: $35, Cognitive Search: $45, Blob: $10 Winner: GCP (marginally cheaper), but differences are minimal.\nReal Cost Driver: LLM token usage (80% of costs). Optimize with:\nResponse caching (ElastiCache/Memorystore) Prompt compression techniques Model selection (smaller models when possible) Request batching 📚 Additional Resources AWS Resources Official Documentation AWS Bedrock Agents Documentation - Complete guide to building agents with Bedrock Amazon Bedrock Knowledge Bases - RAG implementation guide AWS Lambda for AI/ML - Serverless ML patterns Workshops \u0026 Tutorials Building Agentic AI on AWS (Workshop) - Hands-on agent development AWS Generative AI CDK Constructs - Infrastructure templates Bedrock Agents Examples - Sample code and patterns Architecture \u0026 Best Practices AWS Architecture Center - AI/ML Patterns - Reference architectures Well-Architected Framework - ML Lens - Best practices AWS AI/ML Blog - Latest innovations and case studies Tools \u0026 SDKs Boto3 (Python SDK) - AWS Python SDK AWS CDK for AI/ML - Infrastructure as Code Amazon Bedrock Python SDK - Direct Bedrock access GCP Resources Official Documentation Vertex AI Agents Overview - Building agents on GCP Vertex AI Search and Conversation - Enterprise search and RAG Gemini API Documentation - Using Google’s foundation models Workshops \u0026 Tutorials Building AI Agents with Gemini - Step-by-step guide Vertex AI Workbench Tutorials - Hands-on notebooks GCP Generative AI Learning Path - Structured courses Architecture \u0026 Best Practices GCP AI/ML Solutions - Solution architectures MLOps on Vertex AI - Production ML patterns Google Cloud AI Blog - Latest features and case studies Tools \u0026 SDKs Google Cloud Python SDK - GCP Python client libraries Vertex AI SDK - Python SDK for Vertex AI Terraform for GCP - Infrastructure automation Azure Resources Official Documentation Azure OpenAI Service Documentation - GPT-4 and OpenAI models Azure AI Studio - Unified AI development platform Azure Cognitive Search - Enterprise search and RAG Workshops \u0026 Tutorials Building Copilots on Azure - Complete copilot guide Azure OpenAI Samples - Code examples and patterns Microsoft Learn - AI Engineer Path - Structured learning Architecture \u0026 Best Practices Azure AI Reference Architectures - Proven patterns Responsible AI Practices - Ethics and governance Azure AI Blog - Updates and insights Tools \u0026 SDKs Azure SDK for Python - Python client libraries Azure OpenAI SDK - OpenAI integration Bicep/ARM Templates - Infrastructure automation Thank You Thank you for reading this comprehensive guide. Whether you’re just starting with agentic AI or scaling to production, I hope this resource accelerates your journey.\nThe future is autonomous. Let’s build it together. 🚀\nBookmark this guide • Share with your team • Build amazing agents 🤖\nLast Updated: February 14, 2026\nAuthor: Karan Raj Sharma\n",
+  "wordCount" : "1999",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/blog/cloud-comparison/cloud.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blog/cloud-services/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Karan Raj Sharma",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Karan Raj Sharma (Alt + H)">Karan Raj Sharma</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blog/">Blogs</a></div>
+    <h1 class="post-title">
+      The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared
+    </h1>
+    <div class="post-description">
+      Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.
+    </div>
+    <div class="post-meta">
+
+
+February 2026
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/blog/cloud-comparison/cloud.png" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">‎ Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#the-ultimate-cloud-services-cheat-sheet-aws-gcp-azure-compared" aria-label="The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared">The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared</a><ul>
+                        
+                <li>
+                    <a href="#introduction-building-agentic-ai-in-the-multi-cloud-era" aria-label="Introduction: Building Agentic AI in the Multi-Cloud Era">Introduction: Building Agentic AI in the Multi-Cloud Era</a><ul>
+                        
+                <li>
+                    <a href="#what-youll-learn" aria-label="What You&rsquo;ll Learn:">What You&rsquo;ll Learn:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#compute-and-storage-services" aria-label="Compute and Storage Services">Compute and Storage Services</a></li>
+                <li>
+                    <a href="#database-services" aria-label="Database Services">Database Services</a></li>
+                <li>
+                    <a href="#network-services" aria-label="Network Services">Network Services</a></li>
+                <li>
+                    <a href="#security-and-monitoring-services" aria-label="Security and Monitoring Services">Security and Monitoring Services</a></li>
+                <li>
+                    <a href="#machine-learning-and-ai-services" aria-label="Machine Learning and AI Services">Machine Learning and AI Services</a></li>
+                <li>
+                    <a href="#-decision-matrix-which-cloud-for-your-agentic-ai" aria-label="🎯 Decision Matrix: Which Cloud for Your Agentic AI?">🎯 Decision Matrix: Which Cloud for Your Agentic AI?</a><ul>
+                        
+                <li>
+                    <a href="#choose-aws-when" aria-label="Choose AWS When:">Choose AWS When:</a></li>
+                <li>
+                    <a href="#choose-gcp-when" aria-label="Choose GCP When:">Choose GCP When:</a></li>
+                <li>
+                    <a href="#choose-azure-when" aria-label="Choose Azure When:">Choose Azure When:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#-cost-comparison-for-typical-agentic-ai-workload" aria-label="💰 Cost Comparison for Typical Agentic AI Workload">💰 Cost Comparison for Typical Agentic AI Workload</a></li>
+                <li>
+                    <a href="#-additional-resources" aria-label="📚 Additional Resources">📚 Additional Resources</a><ul>
+                        
+                <li>
+                    <a href="#aws-resources" aria-label="AWS Resources">AWS Resources</a><ul>
+                        
+                <li>
+                    <a href="#official-documentation" aria-label="Official Documentation">Official Documentation</a></li>
+                <li>
+                    <a href="#workshops--tutorials" aria-label="Workshops &amp; Tutorials">Workshops &amp; Tutorials</a></li>
+                <li>
+                    <a href="#architecture--best-practices" aria-label="Architecture &amp; Best Practices">Architecture &amp; Best Practices</a></li>
+                <li>
+                    <a href="#tools--sdks" aria-label="Tools &amp; SDKs">Tools &amp; SDKs</a></li></ul>
+                </li>
+                <li>
+                    <a href="#gcp-resources" aria-label="GCP Resources">GCP Resources</a><ul>
+                        
+                <li>
+                    <a href="#official-documentation-1" aria-label="Official Documentation">Official Documentation</a></li>
+                <li>
+                    <a href="#workshops--tutorials-1" aria-label="Workshops &amp; Tutorials">Workshops &amp; Tutorials</a></li>
+                <li>
+                    <a href="#architecture--best-practices-1" aria-label="Architecture &amp; Best Practices">Architecture &amp; Best Practices</a></li>
+                <li>
+                    <a href="#tools--sdks-1" aria-label="Tools &amp; SDKs">Tools &amp; SDKs</a></li></ul>
+                </li>
+                <li>
+                    <a href="#azure-resources" aria-label="Azure Resources">Azure Resources</a><ul>
+                        
+                <li>
+                    <a href="#official-documentation-2" aria-label="Official Documentation">Official Documentation</a></li>
+                <li>
+                    <a href="#workshops--tutorials-2" aria-label="Workshops &amp; Tutorials">Workshops &amp; Tutorials</a></li>
+                <li>
+                    <a href="#architecture--best-practices-2" aria-label="Architecture &amp; Best Practices">Architecture &amp; Best Practices</a></li>
+                <li>
+                    <a href="#tools--sdks-2" aria-label="Tools &amp; SDKs">Tools &amp; SDKs</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#thank-you" aria-label="Thank You">Thank You</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><hr>
+<h1 id="the-ultimate-cloud-services-cheat-sheet-aws-gcp-azure-compared">The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared<a hidden class="anchor" aria-hidden="true" href="#the-ultimate-cloud-services-cheat-sheet-aws-gcp-azure-compared">#</a></h1>
+<h2 id="introduction-building-agentic-ai-in-the-multi-cloud-era">Introduction: Building Agentic AI in the Multi-Cloud Era<a hidden class="anchor" aria-hidden="true" href="#introduction-building-agentic-ai-in-the-multi-cloud-era">#</a></h2>
+<p>Welcome to 2026, where <strong>agentic AI systems</strong>—autonomous agents that can reason, plan, use tools, and execute complex multi-step workflows—are no longer science fiction. They&rsquo;re powering customer service, automating data analysis, orchestrating business processes, and even writing code.</p>
+<p>But here&rsquo;s the challenge: <strong>building production-ready AI agents requires the right cloud infrastructure</strong>. Whether you&rsquo;re implementing:</p>
+<ul>
+<li>🤖 <strong>Customer service agents</strong> with RAG capabilities</li>
+<li>📊 <strong>Data analysis agents</strong> that query databases and generate insights</li>
+<li>🔧 <strong>DevOps agents</strong> that monitor systems and take corrective actions</li>
+<li>💼 <strong>Business process agents</strong> that coordinate across multiple tools</li>
+</ul>
+<p>You need to understand which cloud services to use and how they map across AWS, GCP, and Azure.</p>
+<p><strong>This guide solves that problem.</strong> We&rsquo;ll compare 25+ core services across all three cloud providers, but with a twist: <strong>every service is explained through the lens of building agentic AI systems.</strong></p>
+<h3 id="what-youll-learn">What You&rsquo;ll Learn:<a hidden class="anchor" aria-hidden="true" href="#what-youll-learn">#</a></h3>
+<p>✅ Side-by-side comparison of AWS, GCP, and Azure services<br>
+✅ How each service powers different components of AI agents<br>
+✅ When to use each cloud provider for AI workloads<br>
+✅ Cost optimization strategies for agent infrastructure</p>
+<p>Let&rsquo;s dive in! 🚀</p>
+<hr>
+<h2 id="compute-and-storage-services">Compute and Storage Services<a hidden class="anchor" aria-hidden="true" href="#compute-and-storage-services">#</a></h2>
+<p>These services form the <strong>foundation</strong> of your agentic AI infrastructure—where your agents run, think, and store their memories.</p>
+<table>
+  <thead>
+      <tr>
+          <th>AWS</th>
+          <th>GCP</th>
+          <th>Azure</th>
+          <th>What It Does</th>
+          <th>Role in Agentic AI Systems</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>EC2</td>
+          <td>Compute Engine</td>
+          <td>Virtual Machines</td>
+          <td>Resizable virtual servers with full OS control</td>
+          <td><strong>Agent Orchestration Layer</strong>: Hosts long-running agent controllers, runs GPU-enabled inference for custom models, executes multi-step reasoning workflows, manages agent state machines</td>
+      </tr>
+      <tr>
+          <td>Lambda</td>
+          <td>Cloud Functions</td>
+          <td>Azure Functions</td>
+          <td>Serverless, event-driven compute charged per invocation</td>
+          <td><strong>Stateless Agent Actions</strong>: Executes individual tool calls, triggers agent responses to events (emails, messages, webhooks), scales automatically for burst agent activity, powers micro-agent architectures</td>
+      </tr>
+      <tr>
+          <td>ECS</td>
+          <td>Cloud Run / GKE</td>
+          <td>ACI / AKS</td>
+          <td>Container orchestration for Docker applications</td>
+          <td><strong>Agent Microservices</strong>: Deploys specialized agent components (planner, executor, memory manager), enables polyglot agent stacks, provides service discovery for multi-agent systems</td>
+      </tr>
+      <tr>
+          <td>EKS</td>
+          <td>GKE</td>
+          <td>AKS</td>
+          <td>Managed Kubernetes for containerized workloads</td>
+          <td><strong>Distributed Agent Systems</strong>: Orchestrates complex multi-agent collaborations, manages agent auto-scaling and failover, provides service mesh for agent-to-agent communication, handles stateful agent deployments</td>
+      </tr>
+      <tr>
+          <td>Lightsail</td>
+          <td>Compute Engine (simple)</td>
+          <td>VMs (simple)</td>
+          <td>Simplified VPS with predictable pricing</td>
+          <td><strong>Agent Prototyping</strong>: Quick POC development for agent demos, hosts simple chatbot agents, runs development agent environments, low-cost testing infrastructure</td>
+      </tr>
+      <tr>
+          <td>Elastic Beanstalk</td>
+          <td>App Engine</td>
+          <td>App Service</td>
+          <td>PaaS that auto-handles deployment and scaling</td>
+          <td><strong>Agent API Deployment</strong>: Rapidly deploys agent endpoints, automatically scales agent web interfaces, simplifies CI/CD for agent applications, manages agent health monitoring</td>
+      </tr>
+      <tr>
+          <td>S3</td>
+          <td>Cloud Storage</td>
+          <td>Blob Storage</td>
+          <td>Scalable object storage with 99.999999999% durability</td>
+          <td><strong>Agent Memory Store</strong>: Stores conversation histories for context, archives agent decision logs, hosts vector embeddings for RAG, maintains training data for agent fine-tuning, serves as agent document repository</td>
+      </tr>
+      <tr>
+          <td>Glacier</td>
+          <td>Archive/Coldline</td>
+          <td>Archive Storage</td>
+          <td>Low-cost archival storage with retrieval delays</td>
+          <td><strong>Agent Audit Trail</strong>: Archives historical agent interactions for compliance, stores long-term training datasets, maintains regulatory records of agent decisions, preserves deprecated agent versions</td>
+      </tr>
+      <tr>
+          <td>EBS</td>
+          <td>Persistent Disk</td>
+          <td>Managed Disks</td>
+          <td>Block storage volumes for virtual machines</td>
+          <td><strong>Agent State Persistence</strong>: Stores active agent memory and context, provides high-IOPS storage for vector databases, maintains agent checkpoints for recovery, hosts local model caches</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="database-services">Database Services<a hidden class="anchor" aria-hidden="true" href="#database-services">#</a></h2>
+<p>Databases are the <strong>memory systems</strong> of your AI agents—where they store knowledge, maintain context, and learn from interactions.</p>
+<table>
+  <thead>
+      <tr>
+          <th>AWS</th>
+          <th>GCP</th>
+          <th>Azure</th>
+          <th>What It Does</th>
+          <th>Role in Agentic AI Systems</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>DynamoDB</td>
+          <td>Firestore / Bigtable</td>
+          <td>Cosmos DB</td>
+          <td>NoSQL database with single-digit millisecond latency</td>
+          <td><strong>Agent Session Management</strong>: Stores real-time conversation state with sub-10ms reads, maintains agent context windows across interactions, tracks tool execution history, provides fast key-value lookups for agent decisions, scales automatically with agent traffic</td>
+      </tr>
+      <tr>
+          <td>RDS</td>
+          <td>Cloud SQL</td>
+          <td>SQL Database</td>
+          <td>Managed relational database (MySQL, PostgreSQL, etc.)</td>
+          <td><strong>Structured Agent Knowledge</strong>: Stores user profiles and preferences, maintains transactional logs for multi-step workflows, manages agent permissions and access control, provides ACID guarantees for critical agent operations</td>
+      </tr>
+      <tr>
+          <td>Aurora</td>
+          <td>Cloud Spanner</td>
+          <td>SQL/Cosmos DB</td>
+          <td>High-performance, cloud-native database</td>
+          <td><strong>High-Scale Agent Systems</strong>: Powers agents serving millions of users, provides read replicas for distributed agent fleets, manages complex agent relationship graphs, enables global agent deployments with low latency</td>
+      </tr>
+      <tr>
+          <td>Redshift</td>
+          <td>BigQuery</td>
+          <td>Synapse Analytics</td>
+          <td>Petabyte-scale data warehouse</td>
+          <td><strong>Agent Analytics &amp; Learning</strong>: Analyzes agent performance metrics across thousands of interactions, identifies patterns in agent behavior for optimization, trains agents on historical aggregate data, generates insights dashboard for agent monitoring</td>
+      </tr>
+      <tr>
+          <td>ElastiCache</td>
+          <td>Memorystore</td>
+          <td>Cache for Redis</td>
+          <td>In-memory caching with microsecond latency</td>
+          <td><strong>Agent Response Acceleration</strong>: Caches frequently used agent responses (FAQ answers), stores hot embeddings for instant RAG retrieval, maintains active user session data, speeds up tool lookup and execution, reduces LLM API costs via caching</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="network-services">Network Services<a hidden class="anchor" aria-hidden="true" href="#network-services">#</a></h2>
+<p>Network services control <strong>how your agents communicate</strong> with users, external APIs, and each other.</p>
+<table>
+  <thead>
+      <tr>
+          <th>AWS</th>
+          <th>GCP</th>
+          <th>Azure</th>
+          <th>What It Does</th>
+          <th>Role in Agentic AI Systems</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>VPC</td>
+          <td>VPC</td>
+          <td>Virtual Network</td>
+          <td>Isolated network environment with security controls</td>
+          <td><strong>Agent Security Perimeter</strong>: Isolates agent infrastructure from public internet, creates private subnets for sensitive agent operations (PII handling), controls network access to vector databases and model endpoints, enables secure multi-agent communication</td>
+      </tr>
+      <tr>
+          <td>Route 53</td>
+          <td>Cloud DNS</td>
+          <td>Azure DNS</td>
+          <td>Scalable DNS service with global routing</td>
+          <td><strong>Agent Endpoint Management</strong>: Routes users to nearest agent API endpoints, provides health checks for agent availability, enables blue-green deployments for agent updates, manages custom domains for agent interfaces</td>
+      </tr>
+      <tr>
+          <td>API Gateway</td>
+          <td>API Gateway / Apigee</td>
+          <td>API Management</td>
+          <td>Managed service for creating and securing APIs</td>
+          <td><strong>Agent Interface Layer</strong>: Exposes agent capabilities as REST/WebSocket APIs, manages authentication and authorization for agent access, implements rate limiting to prevent agent abuse, handles API versioning for backward compatibility, provides request/response transformation for tool calls</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="security-and-monitoring-services">Security and Monitoring Services<a hidden class="anchor" aria-hidden="true" href="#security-and-monitoring-services">#</a></h2>
+<p>Security and monitoring services ensure your agents are <strong>trustworthy, compliant, and observable</strong>.</p>
+<table>
+  <thead>
+      <tr>
+          <th>AWS</th>
+          <th>GCP</th>
+          <th>Azure</th>
+          <th>What It Does</th>
+          <th>Role in Agentic AI Systems</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>IAM</td>
+          <td>Cloud IAM</td>
+          <td>AAD / RBAC</td>
+          <td>Fine-grained identity and access management</td>
+          <td><strong>Agent Permission Framework</strong>: Defines what tools each agent can access, enforces least-privilege for agent operations, controls agent access to databases and APIs, audits agent permission usage, implements role-based access for multi-agent systems</td>
+      </tr>
+      <tr>
+          <td>Cognito</td>
+          <td>Firebase Auth / Identity Platform</td>
+          <td>Azure AD B2C</td>
+          <td>User authentication and session management</td>
+          <td><strong>User-Agent Authentication</strong>: Authenticates users interacting with agents, manages user sessions across agent conversations, enables SSO for enterprise agent platforms, controls user-specific agent permissions, tracks user identity across multi-turn interactions</td>
+      </tr>
+      <tr>
+          <td>CloudWatch</td>
+          <td>Cloud Monitoring</td>
+          <td>Azure Monitor</td>
+          <td>Monitoring, logging, and alerting service</td>
+          <td><strong>Agent Observability</strong>: Tracks agent response latency and success rates, monitors token usage and LLM costs, logs agent reasoning steps for debugging, alerts on agent failures or anomalies, creates dashboards for agent performance metrics</td>
+      </tr>
+      <tr>
+          <td>CloudTrail</td>
+          <td>Cloud Audit Logs</td>
+          <td>Activity Log</td>
+          <td>API call logging and audit trail</td>
+          <td><strong>Agent Compliance &amp; Governance</strong>: Audits all agent actions and decisions, tracks which tools agents invoked, maintains immutable record for regulatory compliance, investigates agent security incidents, proves agent behavior for explainability</td>
+      </tr>
+      <tr>
+          <td>CloudFormation</td>
+          <td>Deployment Manager</td>
+          <td>ARM Templates</td>
+          <td>Infrastructure-as-Code for resource provisioning</td>
+          <td><strong>Agent Infrastructure Automation</strong>: Deploys agent stacks consistently across environments, versions agent infrastructure configurations, enables rapid agent environment replication, automates disaster recovery for agent systems, manages multi-region agent deployments</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="machine-learning-and-ai-services">Machine Learning and AI Services<a hidden class="anchor" aria-hidden="true" href="#machine-learning-and-ai-services">#</a></h2>
+<p>These are the <strong>brains</strong> of your agentic AI systems—the foundation models, knowledge bases, and training platforms.</p>
+<table>
+  <thead>
+      <tr>
+          <th>AWS</th>
+          <th>GCP</th>
+          <th>Azure</th>
+          <th>What It Does</th>
+          <th>Role in Agentic AI Systems</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SageMaker</td>
+          <td>Vertex AI</td>
+          <td>Azure ML</td>
+          <td>End-to-end ML platform for training and deployment</td>
+          <td><strong>Agent Intelligence Layer</strong>: Fine-tunes foundation models for domain-specific agents, trains custom embedding models for RAG, hosts specialized models (classification, extraction), provides experiment tracking for agent optimization, manages model versions and A/B testing for agents</td>
+      </tr>
+      <tr>
+          <td>Bedrock</td>
+          <td>Vertex AI (Model Garden)</td>
+          <td>Azure OpenAI Service</td>
+          <td>Managed foundation model API access</td>
+          <td><strong>🧠 Core Agent Reasoning Engine</strong>: Provides Claude, GPT-4, Llama for agent planning and execution, enables multi-model agent strategies (router patterns), offers built-in guardrails for safe agent outputs, includes Knowledge Bases for native RAG, powers agent tool selection and orchestration</td>
+      </tr>
+      <tr>
+          <td>Kendra</td>
+          <td>Vertex AI Search</td>
+          <td>Cognitive Search</td>
+          <td>ML-powered enterprise search with RAG</td>
+          <td><strong>Agent Knowledge Retrieval</strong>: Enables semantic search across enterprise documents, provides contextual information for agent responses, indexes unstructured data (PDFs, wikis, tickets) for agent access, ranks results by relevance for agent consumption, embeds directly into agent reasoning loops</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-decision-matrix-which-cloud-for-your-agentic-ai">🎯 Decision Matrix: Which Cloud for Your Agentic AI?<a hidden class="anchor" aria-hidden="true" href="#-decision-matrix-which-cloud-for-your-agentic-ai">#</a></h2>
+<h3 id="choose-aws-when">Choose AWS When:<a hidden class="anchor" aria-hidden="true" href="#choose-aws-when">#</a></h3>
+<p>✅ You have existing AWS infrastructure<br>
+✅ You need the most mature serverless ecosystem (Lambda)<br>
+✅ You want built-in Knowledge Bases (Bedrock KB)<br>
+✅ You need <strong>Claude</strong> from Anthropic (via Bedrock)<br>
+✅ You&rsquo;re building multi-region, high-scale agents</p>
+<p><strong>Best For</strong>: Enterprise agentic AI, complex reasoning agents, regulated industries</p>
+<hr>
+<h3 id="choose-gcp-when">Choose GCP When:<a hidden class="anchor" aria-hidden="true" href="#choose-gcp-when">#</a></h3>
+<p>✅ You need <strong>powerful data analytics</strong> (BigQuery) for agent learning<br>
+✅ You&rsquo;re building Kubernetes-native agent systems<br>
+✅ You want <strong>Google&rsquo;s models</strong> (Gemini, PaLM)<br>
+✅ You need superior ML experimentation tools (Vertex AI)<br>
+✅ Cost optimization is critical (BigQuery pricing)</p>
+<p><strong>Best For</strong>: Data-intensive agents, research projects, multi-agent systems</p>
+<hr>
+<h3 id="choose-azure-when">Choose Azure When:<a hidden class="anchor" aria-hidden="true" href="#choose-azure-when">#</a></h3>
+<p>✅ You need <strong>GPT-4</strong> or OpenAI models (Azure OpenAI)<br>
+✅ You&rsquo;re in the <strong>Microsoft ecosystem</strong> (Teams, Office, SharePoint)<br>
+✅ You need enterprise identity integration (Active Directory)<br>
+✅ You want seamless hybrid cloud (on-prem + cloud agents)<br>
+✅ You&rsquo;re building agents for Microsoft 365</p>
+<p><strong>Best For</strong>: Enterprise Microsoft shops, Teams bots, Office automation agents</p>
+<hr>
+<h2 id="-cost-comparison-for-typical-agentic-ai-workload">💰 Cost Comparison for Typical Agentic AI Workload<a hidden class="anchor" aria-hidden="true" href="#-cost-comparison-for-typical-agentic-ai-workload">#</a></h2>
+<p><strong>Scenario</strong>: 100K agent interactions/month, each with:</p>
+<ul>
+<li>1 LLM call (500 tokens)</li>
+<li>1 RAG retrieval</li>
+<li>3 tool executions</li>
+<li>State storage</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Provider</th>
+          <th>Monthly Cost</th>
+          <th>Breakdown</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>AWS</strong></td>
+          <td>$180-250</td>
+          <td>Bedrock: $100, Lambda: $30, DynamoDB: $20, Kendra: $50, S3: $10</td>
+      </tr>
+      <tr>
+          <td><strong>GCP</strong></td>
+          <td>$150-220</td>
+          <td>Vertex AI: $90, Cloud Functions: $25, Firestore: $15, Search: $40, Storage: $10</td>
+      </tr>
+      <tr>
+          <td><strong>Azure</strong></td>
+          <td>$170-240</td>
+          <td>Azure OpenAI: $95, Functions: $28, Cosmos DB: $35, Cognitive Search: $45, Blob: $10</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Winner</strong>: GCP (marginally cheaper), but differences are minimal.</p>
+<p><strong>Real Cost Driver</strong>: LLM token usage (80% of costs). Optimize with:</p>
+<ul>
+<li>Response caching (ElastiCache/Memorystore)</li>
+<li>Prompt compression techniques</li>
+<li>Model selection (smaller models when possible)</li>
+<li>Request batching</li>
+</ul>
+<hr>
+<h2 id="-additional-resources">📚 Additional Resources<a hidden class="anchor" aria-hidden="true" href="#-additional-resources">#</a></h2>
+<h3 id="aws-resources">AWS Resources<a hidden class="anchor" aria-hidden="true" href="#aws-resources">#</a></h3>
+<h4 id="official-documentation">Official Documentation<a hidden class="anchor" aria-hidden="true" href="#official-documentation">#</a></h4>
+<ul>
+<li><strong><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html">AWS Bedrock Agents Documentation</a></strong> - Complete guide to building agents with Bedrock</li>
+<li><strong><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html">Amazon Bedrock Knowledge Bases</a></strong> - RAG implementation guide</li>
+<li><strong><a href="https://docs.aws.amazon.com/lambda/latest/dg/services-machine-learning.html">AWS Lambda for AI/ML</a></strong> - Serverless ML patterns</li>
+</ul>
+<h4 id="workshops--tutorials">Workshops &amp; Tutorials<a hidden class="anchor" aria-hidden="true" href="#workshops--tutorials">#</a></h4>
+<ul>
+<li><strong><a href="https://catalog.workshops.aws/building-agentic-ai">Building Agentic AI on AWS (Workshop)</a></strong> - Hands-on agent development</li>
+<li><strong><a href="https://github.com/awslabs/generative-ai-cdk-constructs">AWS Generative AI CDK Constructs</a></strong> - Infrastructure templates</li>
+<li><strong><a href="https://github.com/aws-samples/amazon-bedrock-samples">Bedrock Agents Examples</a></strong> - Sample code and patterns</li>
+</ul>
+<h4 id="architecture--best-practices">Architecture &amp; Best Practices<a hidden class="anchor" aria-hidden="true" href="#architecture--best-practices">#</a></h4>
+<ul>
+<li><strong><a href="https://aws.amazon.com/architecture/ai-ml/">AWS Architecture Center - AI/ML Patterns</a></strong> - Reference architectures</li>
+<li><strong><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html">Well-Architected Framework - ML Lens</a></strong> - Best practices</li>
+<li><strong><a href="https://aws.amazon.com/blogs/machine-learning/">AWS AI/ML Blog</a></strong> - Latest innovations and case studies</li>
+</ul>
+<h4 id="tools--sdks">Tools &amp; SDKs<a hidden class="anchor" aria-hidden="true" href="#tools--sdks">#</a></h4>
+<ul>
+<li><strong><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html">Boto3 (Python SDK)</a></strong> - AWS Python SDK</li>
+<li><strong><a href="https://docs.aws.amazon.com/cdk/api/v2/">AWS CDK for AI/ML</a></strong> - Infrastructure as Code</li>
+<li><strong><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html">Amazon Bedrock Python SDK</a></strong> - Direct Bedrock access</li>
+</ul>
+<hr>
+<h3 id="gcp-resources">GCP Resources<a hidden class="anchor" aria-hidden="true" href="#gcp-resources">#</a></h3>
+<h4 id="official-documentation-1">Official Documentation<a hidden class="anchor" aria-hidden="true" href="#official-documentation-1">#</a></h4>
+<ul>
+<li><strong><a href="https://cloud.google.com/vertex-ai/docs/agents">Vertex AI Agents Overview</a></strong> - Building agents on GCP</li>
+<li><strong><a href="https://cloud.google.com/generative-ai-app-builder/docs/overview">Vertex AI Search and Conversation</a></strong> - Enterprise search and RAG</li>
+<li><strong><a href="https://ai.google.dev/docs">Gemini API Documentation</a></strong> - Using Google&rsquo;s foundation models</li>
+</ul>
+<h4 id="workshops--tutorials-1">Workshops &amp; Tutorials<a hidden class="anchor" aria-hidden="true" href="#workshops--tutorials-1">#</a></h4>
+<ul>
+<li><strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/build-ai-agents-with-gemini">Building AI Agents with Gemini</a></strong> - Step-by-step guide</li>
+<li><strong><a href="https://cloud.google.com/vertex-ai/docs/workbench/tutorials">Vertex AI Workbench Tutorials</a></strong> - Hands-on notebooks</li>
+<li><strong><a href="https://www.cloudskillsboost.google/paths/118">GCP Generative AI Learning Path</a></strong> - Structured courses</li>
+</ul>
+<h4 id="architecture--best-practices-1">Architecture &amp; Best Practices<a hidden class="anchor" aria-hidden="true" href="#architecture--best-practices-1">#</a></h4>
+<ul>
+<li><strong><a href="https://cloud.google.com/solutions/ai">GCP AI/ML Solutions</a></strong> - Solution architectures</li>
+<li><strong><a href="https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning">MLOps on Vertex AI</a></strong> - Production ML patterns</li>
+<li><strong><a href="https://cloud.google.com/blog/products/ai-machine-learning">Google Cloud AI Blog</a></strong> - Latest features and case studies</li>
+</ul>
+<h4 id="tools--sdks-1">Tools &amp; SDKs<a hidden class="anchor" aria-hidden="true" href="#tools--sdks-1">#</a></h4>
+<ul>
+<li><strong><a href="https://cloud.google.com/python/docs/reference">Google Cloud Python SDK</a></strong> - GCP Python client libraries</li>
+<li><strong><a href="https://cloud.google.com/vertex-ai/docs/python-sdk/use-vertex-ai-python-sdk">Vertex AI SDK</a></strong> - Python SDK for Vertex AI</li>
+<li><strong><a href="https://registry.terraform.io/providers/hashicorp/google/latest/docs">Terraform for GCP</a></strong> - Infrastructure automation</li>
+</ul>
+<hr>
+<h3 id="azure-resources">Azure Resources<a hidden class="anchor" aria-hidden="true" href="#azure-resources">#</a></h3>
+<h4 id="official-documentation-2">Official Documentation<a hidden class="anchor" aria-hidden="true" href="#official-documentation-2">#</a></h4>
+<ul>
+<li><strong><a href="https://learn.microsoft.com/azure/ai-services/openai/">Azure OpenAI Service Documentation</a></strong> - GPT-4 and OpenAI models</li>
+<li><strong><a href="https://learn.microsoft.com/azure/ai-studio/">Azure AI Studio</a></strong> - Unified AI development platform</li>
+<li><strong><a href="https://learn.microsoft.com/azure/search/">Azure Cognitive Search</a></strong> - Enterprise search and RAG</li>
+</ul>
+<h4 id="workshops--tutorials-2">Workshops &amp; Tutorials<a hidden class="anchor" aria-hidden="true" href="#workshops--tutorials-2">#</a></h4>
+<ul>
+<li><strong><a href="https://learn.microsoft.com/azure/architecture/ai-ml/guide/copilot-architecture">Building Copilots on Azure</a></strong> - Complete copilot guide</li>
+<li><strong><a href="https://github.com/Azure-Samples/openai">Azure OpenAI Samples</a></strong> - Code examples and patterns</li>
+<li><strong><a href="https://learn.microsoft.com/training/career-paths/ai-engineer">Microsoft Learn - AI Engineer Path</a></strong> - Structured learning</li>
+</ul>
+<h4 id="architecture--best-practices-2">Architecture &amp; Best Practices<a hidden class="anchor" aria-hidden="true" href="#architecture--best-practices-2">#</a></h4>
+<ul>
+<li><strong><a href="https://learn.microsoft.com/azure/architecture/ai-ml/">Azure AI Reference Architectures</a></strong> - Proven patterns</li>
+<li><strong><a href="https://learn.microsoft.com/azure/machine-learning/concept-responsible-ai">Responsible AI Practices</a></strong> - Ethics and governance</li>
+<li><strong><a href="https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bg-p/MachineLearningBlog">Azure AI Blog</a></strong> - Updates and insights</li>
+</ul>
+<h4 id="tools--sdks-2">Tools &amp; SDKs<a hidden class="anchor" aria-hidden="true" href="#tools--sdks-2">#</a></h4>
+<ul>
+<li><strong><a href="https://learn.microsoft.com/python/api/overview/azure/">Azure SDK for Python</a></strong> - Python client libraries</li>
+<li><strong><a href="https://learn.microsoft.com/python/api/overview/azure/openai-readme">Azure OpenAI SDK</a></strong> - OpenAI integration</li>
+<li><strong><a href="https://learn.microsoft.com/azure/azure-resource-manager/bicep/">Bicep/ARM Templates</a></strong> - Infrastructure automation</li>
+</ul>
+<hr>
+<h2 id="thank-you">Thank You<a hidden class="anchor" aria-hidden="true" href="#thank-you">#</a></h2>
+<p>Thank you for reading this comprehensive guide. Whether you&rsquo;re just starting with agentic AI or scaling to production, I hope this resource accelerates your journey.</p>
+<p><strong>The future is autonomous. Let&rsquo;s build it together.</strong> 🚀</p>
+<p><strong>Bookmark this guide</strong> • <strong>Share with your team</strong> • <strong>Build amazing agents</strong> 🤖</p>
+<hr>
+<p><strong>Last Updated:</strong> February 14, 2026<br>
+<strong>Author:</strong> Karan Raj Sharma</p>
+<hr>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/aws/">AWS</a></li>
+      <li><a href="http://localhost:1313/tags/azure/">Azure</a></li>
+      <li><a href="http://localhost:1313/tags/gcp/">GCP</a></li>
+      <li><a href="http://localhost:1313/tags/agentic-ai/">Agentic AI</a></li>
+      <li><a href="http://localhost:1313/tags/ai-agents/">AI Agents</a></li>
+      <li><a href="http://localhost:1313/tags/cloud-architecture/">Cloud Architecture</a></li>
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="http://localhost:1313/tags/llmops/">LLMOps</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">Karan Raj Sharma</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

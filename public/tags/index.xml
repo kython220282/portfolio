@@ -34,11 +34,29 @@
     </item>
     
     <item>
+      <title>AI Agents</title>
+      <link>http://localhost:1313/tags/ai-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AI Consulting</title>
       <link>http://localhost:1313/tags/ai-consulting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/ai-consulting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI Engineering</title>
+      <link>http://localhost:1313/tags/ai-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-engineering/</guid>
       <description></description>
     </item>
     
@@ -106,6 +124,24 @@
     </item>
     
     <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tags/azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Business Strategy</title>
       <link>http://localhost:1313/tags/business-strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,6 +174,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/claims--transformaiton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Architecture</title>
+      <link>http://localhost:1313/tags/cloud-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cloud-architecture/</guid>
       <description></description>
     </item>
     
@@ -214,6 +259,15 @@
     </item>
     
     <item>
+      <title>DevOps</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Digital Transformation</title>
       <link>http://localhost:1313/tags/digital-transformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -282,6 +336,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/frontend-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCP</title>
+      <link>http://localhost:1313/tags/gcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gcp/</guid>
       <description></description>
     </item>
     
@@ -367,11 +430,38 @@
     </item>
     
     <item>
+      <title>LLMOps</title>
+      <link>http://localhost:1313/tags/llmops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/llmops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LSTM</title>
       <link>http://localhost:1313/tags/lstm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLOps</title>
+      <link>http://localhost:1313/tags/mlops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mlops/</guid>
       <description></description>
     </item>
     
@@ -390,6 +480,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/tags/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/open-source/</guid>
       <description></description>
     </item>
     

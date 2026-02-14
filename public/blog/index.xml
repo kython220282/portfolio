@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How AI Is Disrupting Project Management?</title>
-      <link>http://localhost:1313/blog/ai-disrupting-pm/</link>
+      <title>The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared</title>
+      <link>http://localhost:1313/blog/cloud-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ai-disrupting-pm/</guid>
-      <description>Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025.</description>
+      <guid>http://localhost:1313/blog/cloud-services/</guid>
+      <description>Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.</description>
+    </item>
+    
+    <item>
+      <title>MLOps-Boilerplate: Production-Ready Machine Learning Framework</title>
+      <link>http://localhost:1313/blog/ml-boilerplate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ml-boilerplate/</guid>
+      <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
     </item>
     
     <item>
@@ -22,6 +31,15 @@
       
       <guid>http://localhost:1313/blog/ai-glossary/</guid>
       <description>Top AI terms that every AI and ML professional must know</description>
+    </item>
+    
+    <item>
+      <title>How AI Is Disrupting Project Management?</title>
+      <link>http://localhost:1313/blog/ai-disrupting-pm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ai-disrupting-pm/</guid>
+      <description>Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025.</description>
     </item>
     
     <item>

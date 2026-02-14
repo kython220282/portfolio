@@ -7,93 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Education and Certifications</title>
-      <link>http://localhost:1313/education/</link>
+      <title>MLOps-Boilerplate: Production-Ready Machine Learning Framework</title>
+      <link>http://localhost:1313/blog/ml-boilerplate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/education/</guid>
-      <description>&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Degree&lt;/th&gt;
-          &lt;th&gt;Institution&lt;/th&gt;
-          &lt;th&gt;Year&lt;/th&gt;
-          &lt;th&gt;Location&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Master of Data Science (Global)&lt;/td&gt;
-          &lt;td&gt;Deakin University, Australia&lt;/td&gt;
-          &lt;td&gt;2025-2026&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;PGP in AI/ML&lt;/td&gt;
-          &lt;td&gt;Great Lakes and Texas McCombs School of Business&lt;/td&gt;
-          &lt;td&gt;2024&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Diploma in Management&lt;/td&gt;
-          &lt;td&gt;Intitute of Management Technology, Gaziabad&lt;/td&gt;
-          &lt;td&gt;2012&lt;/td&gt;
-          &lt;td&gt;Delhi, India&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Bachelor of Science (B.Sc)&lt;/td&gt;
-          &lt;td&gt;Ramjas College, Delhi University&lt;/td&gt;
-          &lt;td&gt;2003&lt;/td&gt;
-          &lt;td&gt;Delhi, India&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;certifications&#34;&gt;Certifications&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Degree&lt;/th&gt;
-          &lt;th&gt;Institution&lt;/th&gt;
-          &lt;th&gt;Year&lt;/th&gt;
-          &lt;th&gt;Location&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;AI for Leaders&lt;/td&gt;
-          &lt;td&gt;Cornell University&lt;/td&gt;
-          &lt;td&gt;2025&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Project Management Professional&lt;/td&gt;
-          &lt;td&gt;Project Management Institute&lt;/td&gt;
-          &lt;td&gt;2018 - 2027&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Certified Intelligent Automation Professional (CIAP)&lt;/td&gt;
-          &lt;td&gt;Institute for Robotics, Process Automation &amp;amp; Artificial Intelligence (IRPA AI)&lt;/td&gt;
-          &lt;td&gt;2021&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Agile Scrum Master&lt;/td&gt;
-          &lt;td&gt;SimpliLearn&lt;/td&gt;
-          &lt;td&gt;2019&lt;/td&gt;
-          &lt;td&gt;Online&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Lean Six Sigma Black Belt&lt;/td&gt;
-          &lt;td&gt;Total Quality Management Insititute (TQMI)&lt;/td&gt;
-          &lt;td&gt;2012&lt;/td&gt;
-          &lt;td&gt;Delhi NCR, India&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;my-prefered-tech-stack&#34;&gt;MY Prefered Tech stack&lt;/h3&gt;
-&lt;p&gt;Prefered &lt;strong&gt;Open-source&lt;/strong&gt; Stack:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/ml-boilerplate/</guid>
+      <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
     </item>
     
   </channel>

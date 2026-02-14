@@ -3,7 +3,7 @@ title: "AI Glossary for Everyone"
 description: "Top AI terms that every AI and ML professional must know"
 keywords: ["Top AI terms", "Must know AI terms"]
 tags: ["AI Glossary", "AI Key Terms"]
-weight: 2
+weight: 3
 cover:
   image: "/blog/ai-glossary/ai_wordcloud.jpeg"
 dateString: November 2025

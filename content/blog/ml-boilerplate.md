@@ -3,7 +3,7 @@ title: "MLOps-Boilerplate: Production-Ready Machine Learning Framework"
 description: "An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines."
 keywords: ["MLOps", "Machine Learning", "MLflow", "FastAPI", "Production ML", "Data Science"]
 tags: ["MLOps", "Machine Learning", "Open Source", "Python", "AI Engineering", "DevOps"]
-weight: 1
+weight: 2
 cover:
   image: "/blog/ml-boilerplate/cover.png"
 

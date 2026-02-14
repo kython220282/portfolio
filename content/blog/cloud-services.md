@@ -64,6 +64,8 @@ Databases are the **memory systems** of your AI agents—where they store knowle
 | ElastiCache | Memorystore | Cache for Redis | In-memory caching with microsecond latency | **Agent Response Acceleration**: Caches frequently used agent responses (FAQ answers), stores hot embeddings for instant RAG retrieval, maintains active user session data, speeds up tool lookup and execution, reduces LLM API costs via caching |
 | OpenSearch / Aurora pgvector | AlloyDB / Vertex AI Vector Search | Cosmos DB Vector / Azure AI Search | Vector database for embedding storage and semantic search | **Agent Memory & Contextual Retrieval**: Stores and retrieves embeddings for RAG pipelines, enables semantic similarity search across agent knowledge bases, powers hybrid search combining keywords and vectors, maintains long-term agent memory with vector indexing, provides sub-second retrieval for real-time agent responses |
 
+<span style="font-size:20px;">Note: 
+- Aurora pgvector is an extension within relational database, not a native vector store</span>
 ---
 
 ## Network Services
@@ -105,7 +107,8 @@ These are the **brains** of your agentic AI systems—the foundation models, kno
 <span style="font-size:20px;">Note: 
 - Bedrock supports multiple model providers. 
 - Azure OpenAI focuses primarily on OpenAI models. 
-- Vertex AI combines hosting + experimentation + pipelines.</span>
+- Vertex AI combines hosting + experimentation + pipelines.
+</span>
 ---
 
 ## Workflow & Orchestration

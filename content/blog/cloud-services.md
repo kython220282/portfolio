@@ -13,23 +13,16 @@ meta_title: "Cloud Services for Agentic AI: AWS vs GCP vs Azure Cheat Sheet"
 meta_description: "Build production-ready AI agents across AWS, GCP, and Azure. Compare 25+ services with specific guidance for agentic AI systems, RAG pipelines, and autonomous workflows."
 meta_author: Karan Raj Sharma
 meta_date: 2026-02-14
---------------
+---
 
 # The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared
 
-## Introduction: Building Agentic AI in the Multi-Cloud Era
+## Introduction:
 
-Welcome to 2026, where **agentic AI systems**—autonomous agents that can reason, plan, use tools, and execute complex multi-step workflows—are no longer science fiction. They're powering customer service, automating data analysis, orchestrating business processes, and even writing code.
+Agentic AI systems require more than LLM APIs. They require orchestration, memory, vector search, governance, observability, workflow engines, and cost optimization.
 
-But here's the challenge: **building production-ready AI agents requires the right cloud infrastructure**. Whether you're implementing:
-- 🤖 **Customer service agents** with RAG capabilities
-- 📊 **Data analysis agents** that query databases and generate insights
-- 🔧 **DevOps agents** that monitor systems and take corrective actions
-- 💼 **Business process agents** that coordinate across multiple tools
-
-You need to understand which cloud services to use and how they map across AWS, GCP, and Azure.
-
-**This guide solves that problem.** We'll compare 25+ core services across all three cloud providers, but with a twist: **every service is explained through the lens of building agentic AI systems.**
+This guide compares AWS, GCP, and Azure across **compute, storage, databases, vector systems, orchestration, security, and AI platforms** --- specifically through the lens of building production-grade AI
+agents.
 
 ### What You'll Learn:
 
@@ -46,7 +39,7 @@ Let's dive in! 🚀
 These services form the **foundation** of your agentic AI infrastructure—where your agents run, think, and store their memories.
 
 | AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
-|-----|-----|-------|--------------|---------------------------|
+|-----|-----|-------|--------------|----------------------------|
 | EC2 | Compute Engine | Virtual Machines | Resizable virtual servers with full OS control | **Agent Orchestration Layer**: Hosts long-running agent controllers, runs GPU-enabled inference for custom models, executes multi-step reasoning workflows, manages agent state machines |
 | Lambda | Cloud Functions | Azure Functions | Serverless, event-driven compute charged per invocation | **Stateless Agent Actions**: Executes individual tool calls, triggers agent responses to events (emails, messages, webhooks), scales automatically for burst agent activity, powers micro-agent architectures |
 | ECS | Cloud Run / GKE | ACI / AKS | Container orchestration for Docker applications | **Agent Microservices**: Deploys specialized agent components (planner, executor, memory manager), enables polyglot agent stacks, provides service discovery for multi-agent systems |
@@ -64,12 +57,12 @@ These services form the **foundation** of your agentic AI infrastructure—where
 Databases are the **memory systems** of your AI agents—where they store knowledge, maintain context, and learn from interactions.
 
 | AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
-|-----|-----|-------|--------------|---------------------------|
+|-----|-----|-------|--------------|----------------------------|
 | DynamoDB | Firestore / Bigtable | Cosmos DB | NoSQL database with single-digit millisecond latency | **Agent Session Management**: Stores real-time conversation state with sub-10ms reads, maintains agent context windows across interactions, tracks tool execution history, provides fast key-value lookups for agent decisions, scales automatically with agent traffic |
 | RDS | Cloud SQL | SQL Database | Managed relational database (MySQL, PostgreSQL, etc.) | **Structured Agent Knowledge**: Stores user profiles and preferences, maintains transactional logs for multi-step workflows, manages agent permissions and access control, provides ACID guarantees for critical agent operations |
-| Aurora | Cloud Spanner | SQL/Cosmos DB | High-performance, cloud-native database | **High-Scale Agent Systems**: Powers agents serving millions of users, provides read replicas for distributed agent fleets, manages complex agent relationship graphs, enables global agent deployments with low latency |
 | Redshift | BigQuery | Synapse Analytics | Petabyte-scale data warehouse | **Agent Analytics & Learning**: Analyzes agent performance metrics across thousands of interactions, identifies patterns in agent behavior for optimization, trains agents on historical aggregate data, generates insights dashboard for agent monitoring |
 | ElastiCache | Memorystore | Cache for Redis | In-memory caching with microsecond latency | **Agent Response Acceleration**: Caches frequently used agent responses (FAQ answers), stores hot embeddings for instant RAG retrieval, maintains active user session data, speeds up tool lookup and execution, reduces LLM API costs via caching |
+| OpenSearch / Aurora pgvector | AlloyDB / Vertex AI Vector Search | Cosmos DB Vector / Azure AI Search | Vector database for embedding storage and semantic search | **Agent Memory & Contextual Retrieval**: Stores and retrieves embeddings for RAG pipelines, enables semantic similarity search across agent knowledge bases, powers hybrid search combining keywords and vectors, maintains long-term agent memory with vector indexing, provides sub-second retrieval for real-time agent responses |
 
 ---
 
@@ -78,7 +71,7 @@ Databases are the **memory systems** of your AI agents—where they store knowle
 Network services control **how your agents communicate** with users, external APIs, and each other.
 
 | AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
-|-----|-----|-------|--------------|---------------------------|
+|-----|-----|-------|--------------|----------------------------|
 | VPC | VPC | Virtual Network | Isolated network environment with security controls | **Agent Security Perimeter**: Isolates agent infrastructure from public internet, creates private subnets for sensitive agent operations (PII handling), controls network access to vector databases and model endpoints, enables secure multi-agent communication |
 | Route 53 | Cloud DNS | Azure DNS | Scalable DNS service with global routing | **Agent Endpoint Management**: Routes users to nearest agent API endpoints, provides health checks for agent availability, enables blue-green deployments for agent updates, manages custom domains for agent interfaces |
 | API Gateway | API Gateway / Apigee | API Management | Managed service for creating and securing APIs | **Agent Interface Layer**: Exposes agent capabilities as REST/WebSocket APIs, manages authentication and authorization for agent access, implements rate limiting to prevent agent abuse, handles API versioning for backward compatibility, provides request/response transformation for tool calls |
@@ -90,7 +83,7 @@ Network services control **how your agents communicate** with users, external AP
 Security and monitoring services ensure your agents are **trustworthy, compliant, and observable**.
 
 | AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
-|-----|-----|-------|--------------|---------------------------|
+|-----|-----|-------|--------------|----------------------------|
 | IAM | Cloud IAM | AAD / RBAC | Fine-grained identity and access management | **Agent Permission Framework**: Defines what tools each agent can access, enforces least-privilege for agent operations, controls agent access to databases and APIs, audits agent permission usage, implements role-based access for multi-agent systems |
 | Cognito | Firebase Auth / Identity Platform | Azure AD B2C | User authentication and session management | **User-Agent Authentication**: Authenticates users interacting with agents, manages user sessions across agent conversations, enables SSO for enterprise agent platforms, controls user-specific agent permissions, tracks user identity across multi-turn interactions |
 | CloudWatch | Cloud Monitoring | Azure Monitor | Monitoring, logging, and alerting service | **Agent Observability**: Tracks agent response latency and success rates, monitors token usage and LLM costs, logs agent reasoning steps for debugging, alerts on agent failures or anomalies, creates dashboards for agent performance metrics |
@@ -104,10 +97,39 @@ Security and monitoring services ensure your agents are **trustworthy, compliant
 These are the **brains** of your agentic AI systems—the foundation models, knowledge bases, and training platforms.
 
 | AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
-|-----|-----|-------|--------------|---------------------------|
+|-----|-----|-------|--------------|----------------------------|
 | SageMaker | Vertex AI | Azure ML | End-to-end ML platform for training and deployment | **Agent Intelligence Layer**: Fine-tunes foundation models for domain-specific agents, trains custom embedding models for RAG, hosts specialized models (classification, extraction), provides experiment tracking for agent optimization, manages model versions and A/B testing for agents |
-| Bedrock | Vertex AI (Model Garden) | Azure OpenAI Service | Managed foundation model API access | **🧠 Core Agent Reasoning Engine**: Provides Claude, GPT-4, Llama for agent planning and execution, enables multi-model agent strategies (router patterns), offers built-in guardrails for safe agent outputs, includes Knowledge Bases for native RAG, powers agent tool selection and orchestration |
+| Bedrock | Vertex AI (Model Garden) | Azure OpenAI Service | Managed foundation model API access | **Core Agent Reasoning Engine**: Provides Claude, GPT-4, Llama for agent planning and execution, enables multi-model agent strategies (router patterns), offers built-in guardrails for safe agent outputs, includes Knowledge Bases for native RAG, powers agent tool selection and orchestration |
 | Kendra | Vertex AI Search | Cognitive Search | ML-powered enterprise search with RAG | **Agent Knowledge Retrieval**: Enables semantic search across enterprise documents, provides contextual information for agent responses, indexes unstructured data (PDFs, wikis, tickets) for agent access, ranks results by relevance for agent consumption, embeds directly into agent reasoning loops |
+
+<span style="font-size:20px;">Note: 
+- Bedrock supports multiple model providers. 
+- Azure OpenAI focuses primarily on OpenAI models. 
+- Vertex AI combines hosting + experimentation + pipelines.</span>
+---
+
+## Workflow & Orchestration
+
+This layer **coordinates** task sequencing, tool invocation, memory access, and decision logic to ensure agents execute complex, multi-step objectives reliably and contextually.
+
+| AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
+|-----|-----|-------|--------------|----------------------------|
+| Step Functions | Workflows | Logic Apps / Durable Functions | Visual workflow orchestration with state management | **Agent Task Coordination**: Orchestrates multi-step agent reasoning chains, manages retries and error handling for agent actions, implements human-in-the-loop workflows, coordinates parallel tool executions, maintains agent execution state across long-running tasks |
+| SQS / SNS | Pub/Sub | Service Bus / Event Grid | Asynchronous messaging and event distribution | **Agent Event Bus**: Decouples agent components for scalability, enables event-driven agent architectures, distributes tasks across multiple agent instances, implements reliable message queuing for tool execution, coordinates multi-agent collaboration patterns |
+
+---
+
+## Guardrails & Safety
+
+This layer **enforces** policy, compliance, ethical boundaries, and runtime controls to ensure agents operate securely, responsibly, and within defined risk thresholds.
+
+| AWS | GCP | Azure | What It Does | Role in Agentic AI Systems |
+|-----|-----|-------|--------------|----------------------------|
+| Bedrock Guardrails | Vertex AI Safety Filters | Azure Content Safety | LLM output filtering and policy enforcement | **Agent Safety Layer**: Blocks harmful, biased, or inappropriate agent outputs, enforces company policies in agent responses, prevents PII leakage in agent conversations, validates agent actions against business rules, provides content moderation for user-agent interactions |
+| AWS Config / Service Control Policies | Organization Policy / VPC Service Controls | Azure Policy / Blueprints | Infrastructure governance and compliance automation | **Agent Infrastructure Compliance**: Enforces security baselines for agent deployments, prevents unauthorized resource creation, audits infrastructure drift from approved configurations, implements regulatory compliance controls, manages multi-account/project governance for agent systems |
+
+
+
 
 ---
 ## 🎯 Decision Matrix: Which Cloud for Your Agentic AI?
@@ -168,6 +190,15 @@ These are the **brains** of your agentic AI systems—the foundation models, kno
 - Prompt compression techniques
 - Model selection (smaller models when possible)
 - Request batching
+
+**Disclaimer**
+- Cost estimates assume:
+  - Mid-tier foundation models (e.g., GPT-4o / Claude Sonnet class)
+  - Moderate RAG retrieval
+  - 100K interactions/month
+- Actual costs vary significantly by model selection and token usage.
+- LLM token usage typically represents ~70-85% of total cost.
+
 ---
 ## 📚 Additional Resources
 
@@ -242,8 +273,6 @@ These are the **brains** of your agentic AI systems—the foundation models, kno
 - **[Bicep/ARM Templates](https://learn.microsoft.com/azure/azure-resource-manager/bicep/)** - Infrastructure automation
 
 ---
-## Thank You
-
 Thank you for reading this comprehensive guide. Whether you're just starting with agentic AI or scaling to production, I hope this resource accelerates your journey.
 
 **The future is autonomous. Let's build it together.** 🚀

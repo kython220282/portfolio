@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PMO on Karan Raj Sharma</title>
-    <link>http://localhost:1313/tags/pmo/</link>
+    <link>http://localhost:61083/tags/pmo/</link>
     <description>Recent content in PMO on Karan Raj Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/tags/pmo/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:61083/tags/pmo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How AI Is Disrupting Project Management?</title>
-      <link>http://localhost:1313/blog/ai-disrupting-pm/</link>
+      <link>http://localhost:61083/blog/ai-disrupting-pm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ai-disrupting-pm/</guid>
+      <guid>http://localhost:61083/blog/ai-disrupting-pm/</guid>
       <description>Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025.</description>
     </item>
     

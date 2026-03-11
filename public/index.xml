@@ -2,106 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Karan Raj Sharma</title>
-    <link>http://localhost:1313/</link>
+    <link>http://127.0.0.1:1313/</link>
     <description>Recent content on Karan Raj Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://127.0.0.1:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared</title>
-      <link>http://localhost:1313/blog/cloud-services/</link>
+      <link>http://127.0.0.1:1313/blog/cloud-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/cloud-services/</guid>
+      <guid>http://127.0.0.1:1313/blog/cloud-services/</guid>
       <description>Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.</description>
     </item>
     
     <item>
+      <title>Vibe-Coded Applications</title>
+      <link>http://127.0.0.1:1313/projects/videcoded-apps/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/projects/videcoded-apps/</guid>
+      <description>A curated collection of lightweight applications I built using vibe coding with GitHub Copilot.</description>
+    </item>
+    
+    <item>
       <title>MLOps-Boilerplate: Production-Ready Machine Learning Framework</title>
-      <link>http://localhost:1313/projects/ml-boilerplate/</link>
+      <link>http://127.0.0.1:1313/projects/ml-boilerplate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/ml-boilerplate/</guid>
+      <guid>http://127.0.0.1:1313/projects/ml-boilerplate/</guid>
       <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
     </item>
     
     <item>
       <title>AI Glossary for Everyone</title>
-      <link>http://localhost:1313/blog/ai-glossary/</link>
+      <link>http://127.0.0.1:1313/blog/ai-glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ai-glossary/</guid>
+      <guid>http://127.0.0.1:1313/blog/ai-glossary/</guid>
       <description>Top AI terms that every AI and ML professional must know</description>
     </item>
     
     <item>
       <title>How AI Is Disrupting Project Management?</title>
-      <link>http://localhost:1313/blog/ai-disrupting-pm/</link>
+      <link>http://127.0.0.1:1313/blog/ai-disrupting-pm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ai-disrupting-pm/</guid>
+      <guid>http://127.0.0.1:1313/blog/ai-disrupting-pm/</guid>
       <description>Discover how AI is transforming project management with predictive analytics, automation, and intelligent resource allocation. Top AI tools for 2025.</description>
     </item>
     
     <item>
       <title>Avoiding Common Pitfalls in AI Product Design</title>
-      <link>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</link>
+      <link>http://127.0.0.1:1313/blog/avoiding-pitfalls-in-ai-product/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</guid>
+      <guid>http://127.0.0.1:1313/blog/avoiding-pitfalls-in-ai-product/</guid>
       <description>Avoiding common pitfalls like Overestimating AI Capabilities and Hype-Driven Development</description>
     </item>
     
     <item>
       <title>AI Consulting and Engagement Lead for APAC</title>
-      <link>http://localhost:1313/experience/exl-2/</link>
+      <link>http://127.0.0.1:1313/experience/exl-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/exl-2/</guid>
+      <guid>http://127.0.0.1:1313/experience/exl-2/</guid>
       <description>Sr. AVP, AI Consulting | Digital | EXL Service | Bengaluru, India</description>
     </item>
     
     <item>
       <title>Transformation Lead, US Payer Operations</title>
-      <link>http://localhost:1313/experience/sagility/</link>
+      <link>http://127.0.0.1:1313/experience/sagility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/sagility/</guid>
+      <guid>http://127.0.0.1:1313/experience/sagility/</guid>
       <description>Associate VP, Business Excellence and Transformation | Sagility | Bengaluru, India</description>
     </item>
     
     <item>
       <title>Delivery Lead, Transformation Programs </title>
-      <link>http://localhost:1313/experience/exl/</link>
+      <link>http://127.0.0.1:1313/experience/exl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/exl/</guid>
+      <guid>http://127.0.0.1:1313/experience/exl/</guid>
       <description>Sr. AVP, Delivery and Program Management | Digital | EXL Services | Delhi NCR, India</description>
     </item>
     
     <item>
       <title>Quality Assurance Lead</title>
-      <link>http://localhost:1313/experience/wns/</link>
+      <link>http://127.0.0.1:1313/experience/wns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/wns/</guid>
+      <guid>http://127.0.0.1:1313/experience/wns/</guid>
       <description>Assitant Manager, Quality Assurance | WNS | Delhi NCR, India</description>
     </item>
     
     <item>
       <title>Contact Center Agent</title>
-      <link>http://localhost:1313/experience/convergys/</link>
+      <link>http://127.0.0.1:1313/experience/convergys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/convergys/</guid>
+      <guid>http://127.0.0.1:1313/experience/convergys/</guid>
       <description>Sr. Associate, Voice Operations | Convergys | Delhi NCR, India</description>
     </item>
     
     <item>
       <title>Education and Certifications</title>
-      <link>http://localhost:1313/education/</link>
+      <link>http://127.0.0.1:1313/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/education/</guid>
+      <guid>http://127.0.0.1:1313/education/</guid>
       <description>&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;

@@ -2,556 +2,584 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Karan Raj Sharma</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:61083/tags/</link>
     <description>Recent content in Tags on Karan Raj Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:61083/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepLearning.AI</title>
+      <link>http://localhost:61083/tags/deeplearning.ai/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:61083/tags/deeplearning.ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot</title>
+      <link>http://localhost:61083/tags/github-copilot/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:61083/tags/github-copilot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vibe Coding</title>
+      <link>http://localhost:61083/tags/vibe-coding/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:61083/tags/vibe-coding/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Agentic AI</title>
-      <link>http://localhost:1313/tags/agentic-ai/</link>
+      <link>http://localhost:61083/tags/agentic-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/agentic-ai/</guid>
+      <guid>http://localhost:61083/tags/agentic-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>http://localhost:61083/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>http://localhost:61083/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI &amp; Automation Delivery</title>
-      <link>http://localhost:1313/tags/ai--automation-delivery/</link>
+      <link>http://localhost:61083/tags/ai--automation-delivery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai--automation-delivery/</guid>
+      <guid>http://localhost:61083/tags/ai--automation-delivery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Agents</title>
-      <link>http://localhost:1313/tags/ai-agents/</link>
+      <link>http://localhost:61083/tags/ai-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-agents/</guid>
+      <guid>http://localhost:61083/tags/ai-agents/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Consulting</title>
-      <link>http://localhost:1313/tags/ai-consulting/</link>
+      <link>http://localhost:61083/tags/ai-consulting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-consulting/</guid>
+      <guid>http://localhost:61083/tags/ai-consulting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Engineering</title>
-      <link>http://localhost:1313/tags/ai-engineering/</link>
+      <link>http://localhost:61083/tags/ai-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-engineering/</guid>
+      <guid>http://localhost:61083/tags/ai-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Glossary</title>
-      <link>http://localhost:1313/tags/ai-glossary/</link>
+      <link>http://localhost:61083/tags/ai-glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-glossary/</guid>
+      <guid>http://localhost:61083/tags/ai-glossary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Key Terms</title>
-      <link>http://localhost:1313/tags/ai-key-terms/</link>
+      <link>http://localhost:61083/tags/ai-key-terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-key-terms/</guid>
+      <guid>http://localhost:61083/tags/ai-key-terms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Leaders</title>
-      <link>http://localhost:1313/tags/ai-leaders/</link>
+      <link>http://localhost:61083/tags/ai-leaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-leaders/</guid>
+      <guid>http://localhost:61083/tags/ai-leaders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Products</title>
-      <link>http://localhost:1313/tags/ai-products/</link>
+      <link>http://localhost:61083/tags/ai-products/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-products/</guid>
+      <guid>http://localhost:61083/tags/ai-products/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Tools</title>
-      <link>http://localhost:1313/tags/ai-tools/</link>
+      <link>http://localhost:61083/tags/ai-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ai-tools/</guid>
+      <guid>http://localhost:61083/tags/ai-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analytics</title>
-      <link>http://localhost:1313/tags/analytics/</link>
+      <link>http://localhost:61083/tags/analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/analytics/</guid>
+      <guid>http://localhost:61083/tags/analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>http://localhost:61083/tags/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>http://localhost:61083/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>http://localhost:1313/tags/aws/</link>
+      <link>http://localhost:61083/tags/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/aws/</guid>
+      <guid>http://localhost:61083/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure</title>
-      <link>http://localhost:1313/tags/azure/</link>
+      <link>http://localhost:61083/tags/azure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/azure/</guid>
+      <guid>http://localhost:61083/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Business Strategy</title>
-      <link>http://localhost:1313/tags/business-strategy/</link>
+      <link>http://localhost:61083/tags/business-strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/business-strategy/</guid>
+      <guid>http://localhost:61083/tags/business-strategy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Business Transformation Leadership</title>
-      <link>http://localhost:1313/tags/business-transformation-leadership/</link>
+      <link>http://localhost:61083/tags/business-transformation-leadership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/business-transformation-leadership/</guid>
+      <guid>http://localhost:61083/tags/business-transformation-leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Change Management</title>
-      <link>http://localhost:1313/tags/change-management/</link>
+      <link>http://localhost:61083/tags/change-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/change-management/</guid>
+      <guid>http://localhost:61083/tags/change-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Claims  Transformaiton</title>
-      <link>http://localhost:1313/tags/claims--transformaiton/</link>
+      <link>http://localhost:61083/tags/claims--transformaiton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/claims--transformaiton/</guid>
+      <guid>http://localhost:61083/tags/claims--transformaiton/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud Architecture</title>
-      <link>http://localhost:1313/tags/cloud-architecture/</link>
+      <link>http://localhost:61083/tags/cloud-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cloud-architecture/</guid>
+      <guid>http://localhost:61083/tags/cloud-architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Context Engineering</title>
-      <link>http://localhost:1313/tags/context-engineering/</link>
+      <link>http://localhost:61083/tags/context-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/context-engineering/</guid>
+      <guid>http://localhost:61083/tags/context-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cost Reduction</title>
-      <link>http://localhost:1313/tags/cost-reduction/</link>
+      <link>http://localhost:61083/tags/cost-reduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cost-reduction/</guid>
+      <guid>http://localhost:61083/tags/cost-reduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Customer Service</title>
-      <link>http://localhost:1313/tags/customer-service/</link>
+      <link>http://localhost:61083/tags/customer-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/customer-service/</guid>
+      <guid>http://localhost:61083/tags/customer-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CX Journey</title>
-      <link>http://localhost:1313/tags/cx-journey/</link>
+      <link>http://localhost:61083/tags/cx-journey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/cx-journey/</guid>
+      <guid>http://localhost:61083/tags/cx-journey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design Best Practices</title>
-      <link>http://localhost:1313/tags/design-best-practices/</link>
+      <link>http://localhost:61083/tags/design-best-practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/design-best-practices/</guid>
+      <guid>http://localhost:61083/tags/design-best-practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/tags/devops/</link>
+      <link>http://localhost:61083/tags/devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/devops/</guid>
+      <guid>http://localhost:61083/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Transformation</title>
-      <link>http://localhost:1313/tags/digital-transformation/</link>
+      <link>http://localhost:61083/tags/digital-transformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/digital-transformation/</guid>
+      <guid>http://localhost:61083/tags/digital-transformation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Transformation Leadership</title>
-      <link>http://localhost:1313/tags/digital-transformation-leadership/</link>
+      <link>http://localhost:61083/tags/digital-transformation-leadership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/digital-transformation-leadership/</guid>
+      <guid>http://localhost:61083/tags/digital-transformation-leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digtial Transformation</title>
-      <link>http://localhost:1313/tags/digtial-transformation/</link>
+      <link>http://localhost:61083/tags/digtial-transformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/digtial-transformation/</guid>
+      <guid>http://localhost:61083/tags/digtial-transformation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>End-to-End Workflow Digitization</title>
-      <link>http://localhost:1313/tags/end-to-end-workflow-digitization/</link>
+      <link>http://localhost:61083/tags/end-to-end-workflow-digitization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/end-to-end-workflow-digitization/</guid>
+      <guid>http://localhost:61083/tags/end-to-end-workflow-digitization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enterprise AI</title>
-      <link>http://localhost:1313/tags/enterprise-ai/</link>
+      <link>http://localhost:61083/tags/enterprise-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/enterprise-ai/</guid>
+      <guid>http://localhost:61083/tags/enterprise-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ethical AI</title>
-      <link>http://localhost:1313/tags/ethical-ai/</link>
+      <link>http://localhost:61083/tags/ethical-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ethical-ai/</guid>
+      <guid>http://localhost:61083/tags/ethical-ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GCP</title>
-      <link>http://localhost:1313/tags/gcp/</link>
+      <link>http://localhost:61083/tags/gcp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/gcp/</guid>
+      <guid>http://localhost:61083/tags/gcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Green Belt</title>
-      <link>http://localhost:1313/tags/green-belt/</link>
+      <link>http://localhost:61083/tags/green-belt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/green-belt/</guid>
+      <guid>http://localhost:61083/tags/green-belt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Payer Operations</title>
-      <link>http://localhost:1313/tags/healthcare-payer-operations/</link>
+      <link>http://localhost:61083/tags/healthcare-payer-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/healthcare-payer-operations/</guid>
+      <guid>http://localhost:61083/tags/healthcare-payer-operations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intelligent Process Automation (IPA)</title>
-      <link>http://localhost:1313/tags/intelligent-process-automation-ipa/</link>
+      <link>http://localhost:61083/tags/intelligent-process-automation-ipa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/intelligent-process-automation-ipa/</guid>
+      <guid>http://localhost:61083/tags/intelligent-process-automation-ipa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kaizen</title>
-      <link>http://localhost:1313/tags/kaizen/</link>
+      <link>http://localhost:61083/tags/kaizen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/kaizen/</guid>
+      <guid>http://localhost:61083/tags/kaizen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large-Scale Program Management</title>
-      <link>http://localhost:1313/tags/large-scale-program-management/</link>
+      <link>http://localhost:61083/tags/large-scale-program-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/large-scale-program-management/</guid>
+      <guid>http://localhost:61083/tags/large-scale-program-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lean Six Sigma</title>
-      <link>http://localhost:1313/tags/lean-six-sigma/</link>
+      <link>http://localhost:61083/tags/lean-six-sigma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/lean-six-sigma/</guid>
+      <guid>http://localhost:61083/tags/lean-six-sigma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lean Six Sigma Black Belt</title>
-      <link>http://localhost:1313/tags/lean-six-sigma-black-belt/</link>
+      <link>http://localhost:61083/tags/lean-six-sigma-black-belt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/lean-six-sigma-black-belt/</guid>
+      <guid>http://localhost:61083/tags/lean-six-sigma-black-belt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LLMOps</title>
-      <link>http://localhost:1313/tags/llmops/</link>
+      <link>http://localhost:61083/tags/llmops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/llmops/</guid>
+      <guid>http://localhost:61083/tags/llmops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>http://localhost:61083/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>http://localhost:61083/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MLOps</title>
-      <link>http://localhost:1313/tags/mlops/</link>
+      <link>http://localhost:61083/tags/mlops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/mlops/</guid>
+      <guid>http://localhost:61083/tags/mlops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Geo</title>
-      <link>http://localhost:1313/tags/multi-geo/</link>
+      <link>http://localhost:61083/tags/multi-geo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/multi-geo/</guid>
+      <guid>http://localhost:61083/tags/multi-geo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NLP</title>
-      <link>http://localhost:1313/tags/nlp/</link>
+      <link>http://localhost:61083/tags/nlp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/nlp/</guid>
+      <guid>http://localhost:61083/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>http://localhost:1313/tags/open-source/</link>
+      <link>http://localhost:61083/tags/open-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/open-source/</guid>
+      <guid>http://localhost:61083/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PMO</title>
-      <link>http://localhost:1313/tags/pmo/</link>
+      <link>http://localhost:61083/tags/pmo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/pmo/</guid>
+      <guid>http://localhost:61083/tags/pmo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Process Excellence</title>
-      <link>http://localhost:1313/tags/process-excellence/</link>
+      <link>http://localhost:61083/tags/process-excellence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/process-excellence/</guid>
+      <guid>http://localhost:61083/tags/process-excellence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product Development</title>
-      <link>http://localhost:1313/tags/product-development/</link>
+      <link>http://localhost:61083/tags/product-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/product-development/</guid>
+      <guid>http://localhost:61083/tags/product-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Program &amp; Pipeline Management</title>
-      <link>http://localhost:1313/tags/program--pipeline-management/</link>
+      <link>http://localhost:61083/tags/program--pipeline-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/program--pipeline-management/</guid>
+      <guid>http://localhost:61083/tags/program--pipeline-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Program Management</title>
-      <link>http://localhost:1313/tags/program-management/</link>
+      <link>http://localhost:61083/tags/program-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/program-management/</guid>
+      <guid>http://localhost:61083/tags/program-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project Management</title>
-      <link>http://localhost:1313/tags/project-management/</link>
+      <link>http://localhost:61083/tags/project-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/project-management/</guid>
+      <guid>http://localhost:61083/tags/project-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>http://localhost:61083/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>http://localhost:61083/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quality Assurance</title>
-      <link>http://localhost:1313/tags/quality-assurance/</link>
+      <link>http://localhost:61083/tags/quality-assurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/quality-assurance/</guid>
+      <guid>http://localhost:61083/tags/quality-assurance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quality Control</title>
-      <link>http://localhost:1313/tags/quality-control/</link>
+      <link>http://localhost:61083/tags/quality-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/quality-control/</guid>
+      <guid>http://localhost:61083/tags/quality-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quality Governance</title>
-      <link>http://localhost:1313/tags/quality-governance/</link>
+      <link>http://localhost:61083/tags/quality-governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/quality-governance/</guid>
+      <guid>http://localhost:61083/tags/quality-governance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RPA</title>
-      <link>http://localhost:1313/tags/rpa/</link>
+      <link>http://localhost:61083/tags/rpa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/rpa/</guid>
+      <guid>http://localhost:61083/tags/rpa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Strategic Cost Savings</title>
-      <link>http://localhost:1313/tags/strategic-cost-savings/</link>
+      <link>http://localhost:61083/tags/strategic-cost-savings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/strategic-cost-savings/</guid>
+      <guid>http://localhost:61083/tags/strategic-cost-savings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transitions</title>
-      <link>http://localhost:1313/tags/transitions/</link>
+      <link>http://localhost:61083/tags/transitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/transitions/</guid>
+      <guid>http://localhost:61083/tags/transitions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>US Clients</title>
-      <link>http://localhost:1313/tags/us-clients/</link>
+      <link>http://localhost:61083/tags/us-clients/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/us-clients/</guid>
+      <guid>http://localhost:61083/tags/us-clients/</guid>
       <description></description>
     </item>
     
     <item>
       <title>US Healthcare</title>
-      <link>http://localhost:1313/tags/us-healthcare/</link>
+      <link>http://localhost:61083/tags/us-healthcare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/us-healthcare/</guid>
+      <guid>http://localhost:61083/tags/us-healthcare/</guid>
       <description></description>
     </item>
     

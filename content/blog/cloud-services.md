@@ -3,7 +3,7 @@ title: "The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared"
 description: "Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25+ services side-by-side with detailed descriptions and guidance for building agentic AI systems."
 keywords: ["AWS", "Azure", "GCP", "Cloud Services Cheat Sheet", "Cloud Comparison", "Agentic AI", "AI Agents", "Multi-Cloud", "Cloud Architecture", "AWS Bedrock", "Azure OpenAI", "Vertex AI"]
 tags: ["AWS", "Azure", "GCP", "Agentic AI", "AI Agents", "Cloud Architecture", "Machine Learning", "LLMOps"]
-weight: 1
+weight: 2
 cover:
   image: "/blog/cloud-comparison/cloud.png"
 

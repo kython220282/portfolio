@@ -98,6 +98,15 @@
     </item>
     
     <item>
+      <title>AI Governance</title>
+      <link>http://localhost:1313/tags/ai-governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-governance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AI Key Terms</title>
       <link>http://localhost:1313/tags/ai-key-terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -125,11 +134,38 @@
     </item>
     
     <item>
+      <title>AI Research</title>
+      <link>http://localhost:1313/tags/ai-research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI Safety</title>
+      <link>http://localhost:1313/tags/ai-safety/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai-safety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AI Tools</title>
       <link>http://localhost:1313/tags/ai-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/ai-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alignment</title>
+      <link>http://localhost:1313/tags/alignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/alignment/</guid>
       <description></description>
     </item>
     
@@ -148,6 +184,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Systems</title>
+      <link>http://localhost:1313/tags/autonomous-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/autonomous-systems/</guid>
       <description></description>
     </item>
     
@@ -346,6 +391,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/healthcare-payer-operations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure</title>
+      <link>http://localhost:1313/tags/infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
       <description></description>
     </item>
     

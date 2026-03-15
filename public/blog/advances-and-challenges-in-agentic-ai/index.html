@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems | Karan Raj Sharma</title>
+<meta name="keywords" content="agentic AI, autonomous agents, AI safety, alignment, AI governance, transparency, infrastructure, self-directed goal pursuit, AI adaptation, enterprise automation">
+<meta name="description" content="This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7d180d82a2aae4ef98a2afbcfd404a9cf71cff8e24908c97a020c7e1e9dfbfb2.css" integrity="sha256-fRgNgqKq5O&#43;Yoq&#43;8/UBKnPcc/44kkIyXoCDH4enfv7I=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.555af97124d54bb1457985dd081b8f5616a48103aafeb30ac89fde835d65aa6c.js" integrity="sha256-VVr5cSTVS7FFeYXdCBuPVhakgQOq/rMKyJ/eg11lqmw="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems" />
+<meta property="og:description" content="This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/" />
+<meta property="og:image" content="http://localhost:1313/blog/agentic-ai-research-2025-2026/cover.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/blog/agentic-ai-research-2025-2026/cover.png" />
+<meta name="twitter:title" content="What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems"/>
+<meta name="twitter:description" content="This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "http://localhost:1313/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems",
+      "item": "http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems",
+  "name": "What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems",
+  "description": "This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems.",
+  "keywords": [
+    "agentic AI", "autonomous agents", "AI safety", "alignment", "AI governance", "transparency", "infrastructure", "self-directed goal pursuit", "AI adaptation", "enterprise automation"
+  ],
+  "articleBody": "Abstract This article synthesizes insights from recent agentic AI research published between 2025 and 2026, examining how the field is evolving beyond generative models toward autonomous systems capable of planning, reasoning, and acting in complex environments. Drawing on six research papers and reports covering AI safety, agent architectures, enterprise governance frameworks, data infrastructure, and generative information retrieval, the analysis highlights a key shift from model-centric AI to system-centric AI. The findings suggest that building trustworthy agentic systems requires an integrated stack combining foundation models, modular agent architectures, governed execution frameworks, agent-first infrastructure, and global governance mechanisms. Together, these developments indicate that the future of AI will depend not only on advances in machine learning models but also on innovations in system design, policy, and operational governance.\nIntroduction Agentic AI systems—artificial agents capable of autonomous goal formulation, strategic planning, and adaptive decision-making—are emerging as the next major step in the evolution of artificial intelligence. Unlike traditional AI systems that respond to specific prompts or predefined workflows, agentic systems can reason about objectives, plan multi-step actions, interact with tools, and adapt their behavior over time.\nThis growing autonomy is opening the door to transformative applications across domains such as healthcare, finance, autonomous transportation, enterprise automation, and scientific research. At the same time, the increasing independence of these systems raises critical questions around safety, alignment with human values, transparency, and governance. Systems capable of pursuing complex objectives and modifying their strategies introduce new risks that traditional AI development frameworks were not designed to manage.\nThis article therefore explores the following central question:\nWhat does recent scientific research reveal about the technical architectures, safety mechanisms, and governance frameworks required to build trustworthy agentic AI systems?\nTo answer this question, the analysis synthesizes insights from several recent research papers published between 2025 and 2026, spanning AI safety reports, architectural frameworks, infrastructure designs, and governance studies. By bringing together these perspectives, the article aims to present a coherent view of how the emerging agentic AI stack is evolving.\nBackground and Literature Review Agentic AI sits at the intersection of several major research traditions, including autonomous systems, reinforcement learning, and generative AI. What distinguishes agentic systems is their ability to pursue goals autonomously and adapt their behavior in dynamic environments. Rather than simply responding to prompts or executing predefined workflows, these systems can reason about objectives, plan actions, and iteratively adjust their strategies.\nHistorically, AI safety research concentrated on relatively narrow technical challenges such as robustness to adversarial inputs and interpretability of model decisions [2]. As AI capabilities have advanced, however, researchers have increasingly argued for a broader sociotechnical perspective that considers ethical, legal, and societal implications alongside technical safeguards [3].\nThe International AI Safety Report 2026 [1] reflects this shift toward multidisciplinary analysis. The report characterizes agentic AI systems as those capable of autonomous goal-setting, self-modification, and strategic planning, while emphasizing the complex safety and governance challenges that accompany such capabilities.\nAt the same time, research on agentic system design has begun to address the architectural and infrastructure requirements necessary for reliable deployment. Studies on agent architectures emphasize modular system design, control loops, and embedded safety guardrails to manage autonomous behavior [4]. Infrastructure-focused research highlights challenges such as concurrency control, secure data access, and compute isolation, which are essential when multiple agents interact with shared data environments [5].\nPractical frameworks are also beginning to emerge. Systems such as POLARIS demonstrate how structured planning and governed execution mechanisms can enable auditable and policy-compliant agentic workflows, particularly in enterprise automation contexts [6].\nFinally, advances in generative AI models provide the underlying reasoning and instruction-following capabilities that power many agentic systems [7]. These models enable agents to synthesize information, generate plans, and interact with tools in increasingly sophisticated ways.\nTogether, this growing body of research highlights both the promise and the complexity of agentic AI, pointing to the need for integrated solutions spanning model design, system architecture, infrastructure, and governance. The following sections examine several recent studies that contribute to this evolving understanding of agentic AI systems.\nMethodology This report employs a qualitative synthesis methodology, drawing on a curated selection of recent academic papers identified through systematic searches on arXiv and Tavily databases. Selection criteria included:\nRecency: Publications from 2025 to early 2026. Relevance: Focus on agentic AI adaptation, safety, governance, and infrastructure. Institutional credibility: Authorship by recognized experts affiliated with leading universities and research institutions. The primary sources analyzed are:\nInternational AI Safety Report 2026 [1] POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation [6] Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance [5] Architectures for Building Agentic AI [4] Competing Visions of Ethical AI: A Case Study of OpenAI [3] Foundations of GenIR [7] Each paper was reviewed to identify its research objectives, technical contributions, and implications for the development of agentic AI systems. The insights were then synthesized into several thematic areas, including agentic system design, safety and alignment challenges, governance frameworks, enterprise deployment models, and infrastructure requirements.\nBecause agentic AI remains a rapidly evolving field, this synthesis should be viewed as a snapshot of emerging research directions rather than a comprehensive survey.\nKey Findings and Results 1. International AI Safety Report 2026 [1] The International AI Safety Report 2026, authored by Yoshua Bengio and an international panel of experts, provides a comprehensive synthesis of global research on advanced AI systems with particular emphasis on agentic AI. The report defines agentic AI as systems capable of three key characteristics:\nAutonomous goal-setting: The ability to define and pursue objectives without continuous human prompting. Self-modification: Dynamically adjusting internal parameters, strategies, or behavior based on environmental feedback. Strategic planning: Anticipating future states and optimizing actions to achieve long-term objectives. The report identifies several core safety challenges associated with increasing AI autonomy:\nRobustness: Ensuring reliable behavior across diverse and unforeseen conditions, including adversarial environments. Alignment: Maintaining consistency between AI objectives and human values to prevent harmful or unintended outcomes. Transparency: Developing interpretable decision-making processes to detect deception, manipulation, or unintended behavior. Governance: Establishing international standards, regulatory frameworks, and collaborative oversight mechanisms. Importantly, the report situates agentic AI within a broader global governance context, emphasizing that technical advances must be accompanied by coordinated collaboration between academia, industry, governments, and civil society. This macro-level perspective provides the policy and safety framework within which many of the more technical approaches proposed in subsequent research can be understood.\n2. POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation [6] Moslemi et al. introduce POLARIS, a framework designed to enable governed agentic AI in enterprise back-office automation environments where auditability, regulatory compliance, and operational predictability are essential.\nThe framework introduces several key mechanisms:\nTyped Plan Synthesis: Agent actions are represented as structured, typed plans that enforce semantic correctness and reduce execution errors. Governed Execution: Organizational policies and compliance constraints are embedded directly into the execution layer to ensure that agents operate within approved boundaries. Empirical Evaluation: The framework is evaluated on financial document processing tasks, demonstrating improvements in predictability, compliance monitoring, and auditability. POLARIS demonstrates how formal planning methods and policy guardrails can be combined to operationalize safe agentic AI in enterprise workflows. By constraining agent behavior through structured planning and governance controls, the framework offers a practical approach to implementing the safety principles emphasized in broader AI governance research.\n3. Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance [5] Tagliabue, Bianchi, and Greco address the infrastructure-level challenges associated with deploying agentic AI systems in enterprise data environments. Their work introduces Bauplan, an agent-first lakehouse architecture designed to support trustworthy and scalable agentic workflows.\nThe architecture incorporates several key design principles:\nData and compute isolation: Inspired by multi-version concurrency control (MVCC) from database systems, the architecture ensures that multiple agents can operate concurrently without corrupting shared data states. Narrow API surfaces: Limiting the actions available to agents through carefully designed APIs reduces the risk of unauthorized operations or unintended behaviors. Governance and access control: The system embeds policy enforcement mechanisms to regulate how agents access and manipulate data. By adapting database concurrency techniques to agentic systems, the proposed architecture enables safe multi-agent interaction with shared data environments. This work highlights that trustworthy agentic AI requires not only algorithmic advances but also robust data infrastructure and governance mechanisms.\n4. Architectures for Building Agentic AI [4] Nowaczyk proposes architectural principles aimed at improving the reliability and safety of agentic AI systems. The paper focuses on system-level design patterns that enable controlled autonomy and robust operation.\nKey architectural principles include:\nModular Design: Separating components such as perception, reasoning, planning, and execution to facilitate verification, monitoring, and maintenance. Control Loops: Continuous monitoring and feedback mechanisms that allow systems to detect anomalies and adapt safely. Safety Mechanisms: Fail-safes, human overrides, and redundancy to mitigate unintended actions or system failures. While frameworks such as POLARIS focus on governed workflow execution, this work provides broader architectural guidelines for designing agentic systems capable of operating safely in dynamic environments.\n5. Competing Visions of Ethical AI: A Case Study of OpenAI [3] Wilfley et al. examine the ethical and governance debates surrounding AI development through a case study of OpenAI. Although the paper is not exclusively focused on agentic AI, it offers valuable insight into the sociotechnical dynamics shaping AI governance.\nThe authors highlight several key themes:\nCompeting ethical frameworks: Different stakeholders—including researchers, corporations, policymakers, and civil society—often hold conflicting views regarding AI’s risks and benefits. Governance tensions: Rapid technological development frequently outpaces institutional mechanisms for oversight and accountability. Transparency and participation: Effective governance requires inclusive dialogue and transparent decision-making processes. As AI systems gain greater autonomy and decision-making capability, these governance tensions become more pronounced. The study therefore underscores the importance of ethical deliberation and participatory governance in shaping the responsible deployment of agentic AI technologies.\n6. Foundations of GenIR [7] Ai, Zhan, and Liu explore the emerging paradigm of Generative Information Retrieval (GenIR), which integrates large generative models with traditional information retrieval techniques.\nThe paper highlights several foundational capabilities relevant to agentic AI:\nAdvanced modeling and reasoning: Generative models enable systems to synthesize information across multiple sources and follow complex instructions.\nDynamic content generation: Retrieval systems can produce context-aware responses rather than simply returning static documents.\nChallenges in reliability: Issues such as hallucination, bias, and verification remain significant challenges for generative retrieval systems.\nAlthough not directly focused on agentic AI, GenIR research provides critical insight into the knowledge access layer that many agentic systems rely upon. These generative retrieval capabilities support reasoning, planning, and adaptive decision-making—core behaviors associated with autonomous agents.\nConclusion Recent research on agentic AI highlights a significant shift in the evolution of artificial intelligence. As systems gain the ability to formulate goals, plan actions, and adapt their behavior autonomously, the challenges of safety, alignment, and governance become increasingly complex. The studies reviewed in this article illustrate that building trustworthy agentic systems requires more than advances in machine learning models—it requires coordinated progress across architecture, infrastructure, and governance frameworks.\nEmerging approaches such as typed planning and governed execution frameworks like POLARIS, along with agent-first infrastructure designs such as the agentic lakehouse, demonstrate promising pathways for operationalizing safe and reliable agentic AI in real-world environments.\nLooking ahead, several research priorities remain critical:\nEmpirical validation of safety mechanisms and governance frameworks in real-world deployments. Scalable and adaptive governance models capable of adapting to rapidly evolving AI capabilities. Interdisciplinary collaboration across computer science, ethics, law, and policy. International cooperation to establish shared norms and oversight mechanisms for advanced AI systems. Taken together, these developments suggest that the future of AI will depend not only on creating more powerful models but on engineering robust autonomous systems that operate safely within human and societal constraints.\nAgentic AI therefore represents a shift from building intelligent models to designing trustworthy autonomous systems—a transition that will shape the next phase of artificial intelligence research and deployment.\nReferences [1] Yoshua Bengio et al., International AI Safety Report 2026, arXiv:2602.21012v1, 2026-02-24. https://arxiv.org/abs/2602.21012v1 PDF (target=\"_blank\")\n[2] Roel Dobbe, AI Safety Response Paper, arXiv:2503.04743v1, 2025-03-10. https://arxiv.org/abs/2503.04743v1 PDF (target=\"_blank\")\n[3] Melissa Wilfley et al., Competing Visions of Ethical AI: A Case Study of OpenAI, arXiv:2601.16513v1, 2026-01-20. https://arxiv.org/abs/2601.16513v1 PDF (target=\"_blank\")\n[4] Sławomir Nowaczyk, Architectures for Building Agentic AI, arXiv:2512.09458v1, 2025-12-15. https://arxiv.org/abs/2512.09458v1 PDF (target=\"_blank\")\n[5] Jacopo Tagliabue, Federico Bianchi, Ciro Greco, Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance, arXiv:2511.16402v1, 2025-11-20. https://arxiv.org/abs/2511.16402v1 PDF (target=\"_blank\")\n[6] Zahra Moslemi et al., POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation, arXiv:2601.11816v1, 2026-01-16. https://arxiv.org/abs/2601.11816v1 PDF (target=\"_blank\")\n[7] Qingyao Ai, Jingtao Zhan, Yiqun Liu, Foundations of GenIR, arXiv:2501.02842v1, 2025-01-06. https://arxiv.org/abs/2501.02842v1 PDF (target=\"_blank\")\n",
+  "wordCount" : "2089",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/blog/agentic-ai-research-2025-2026/cover.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Karan Raj Sharma",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Karan Raj Sharma (Alt + H)">Karan Raj Sharma</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/blog/">Blogs</a></div>
+    <h1 class="post-title">
+      What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems
+    </h1>
+    <div class="post-description">
+      This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems.
+    </div>
+    <div class="post-meta">
+
+
+March 2026
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/blog/agentic-ai-research-2025-2026/cover.png" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">‎ Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#abstract" aria-label="Abstract">Abstract</a></li>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#background-and-literature-review" aria-label="Background and Literature Review">Background and Literature Review</a></li>
+                <li>
+                    <a href="#methodology" aria-label="Methodology">Methodology</a></li>
+                <li>
+                    <a href="#key-findings-and-results" aria-label="Key Findings and Results">Key Findings and Results</a><ul>
+                        
+                <li>
+                    <a href="#1-international-ai-safety-report-2026-1" aria-label="1. International AI Safety Report 2026 [1]">1. International AI Safety Report 2026 [1]</a></li>
+                <li>
+                    <a href="#2-polaris-typed-planning-and-governed-execution-for-agentic-ai-in-back-office-automation-6" aria-label="2. POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation [6]">2. POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation [6]</a></li>
+                <li>
+                    <a href="#3-trustworthy-ai-in-the-agentic-lakehouse-from-concurrency-to-governance-5" aria-label="3. Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance [5]">3. Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance [5]</a></li>
+                <li>
+                    <a href="#4-architectures-for-building-agentic-ai-4" aria-label="4. Architectures for Building Agentic AI [4]">4. Architectures for Building Agentic AI [4]</a></li>
+                <li>
+                    <a href="#5-competing-visions-of-ethical-ai-a-case-study-of-openai-3" aria-label="5. Competing Visions of Ethical AI: A Case Study of OpenAI [3]">5. Competing Visions of Ethical AI: A Case Study of OpenAI [3]</a></li>
+                <li>
+                    <a href="#6-foundations-of-genir-7" aria-label="6. Foundations of GenIR [7]">6. Foundations of GenIR [7]</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a></li>
+                <li>
+                    <a href="#references" aria-label="References">References</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="abstract">Abstract<a hidden class="anchor" aria-hidden="true" href="#abstract">#</a></h2>
+<p>This article synthesizes insights from <strong>recent agentic AI research published between 2025 and 2026</strong>, examining how the field is evolving beyond generative models toward autonomous systems capable of planning, reasoning, and acting in complex environments. Drawing on six research papers and reports covering AI safety, agent architectures, enterprise governance frameworks, data infrastructure, and generative information retrieval, the analysis highlights a key shift from <strong>model-centric AI to system-centric AI</strong>. The findings suggest that building trustworthy agentic systems requires an integrated stack combining foundation models, modular agent architectures, governed execution frameworks, agent-first infrastructure, and global governance mechanisms. Together, these developments indicate that the future of AI will depend not only on advances in machine learning models but also on innovations in system design, policy, and operational governance.</p>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Agentic AI systems—artificial agents capable of <strong>autonomous goal formulation, strategic planning, and adaptive decision-making</strong>—are emerging as the next major step in the evolution of artificial intelligence. Unlike traditional AI systems that respond to specific prompts or predefined workflows, agentic systems can <strong>reason about objectives, plan multi-step actions, interact with tools, and adapt their behavior over time</strong>.</p>
+<p>This growing autonomy is opening the door to transformative applications across domains such as <strong>healthcare, finance, autonomous transportation, enterprise automation, and scientific research</strong>. At the same time, the increasing independence of these systems raises critical questions around <strong>safety, alignment with human values, transparency, and governance</strong>. Systems capable of pursuing complex objectives and modifying their strategies introduce new risks that traditional AI development frameworks were not designed to manage.</p>
+<p>This article therefore explores the following central question:</p>
+<p><strong>What does recent scientific research reveal about the technical architectures, safety mechanisms, and governance frameworks required to build trustworthy agentic AI systems?</strong></p>
+<p>To answer this question, the analysis synthesizes insights from several <strong>recent research papers published between 2025 and 2026</strong>, spanning AI safety reports, architectural frameworks, infrastructure designs, and governance studies. By bringing together these perspectives, the article aims to present a <strong>coherent view of how the emerging agentic AI stack is evolving</strong>.</p>
+<hr>
+<h2 id="background-and-literature-review">Background and Literature Review<a hidden class="anchor" aria-hidden="true" href="#background-and-literature-review">#</a></h2>
+<p>Agentic AI sits at the intersection of several major research traditions, including <strong>autonomous systems, reinforcement learning, and generative AI</strong>. What distinguishes agentic systems is their ability to <strong>pursue goals autonomously and adapt their behavior in dynamic environments</strong>. Rather than simply responding to prompts or executing predefined workflows, these systems can reason about objectives, plan actions, and iteratively adjust their strategies.</p>
+<p>Historically, AI safety research concentrated on relatively narrow technical challenges such as <strong>robustness to adversarial inputs and interpretability of model decisions</strong> [2]. As AI capabilities have advanced, however, researchers have increasingly argued for a broader <strong>sociotechnical perspective</strong> that considers ethical, legal, and societal implications alongside technical safeguards [3].</p>
+<p>The <em>International AI Safety Report 2026</em> [1] reflects this shift toward multidisciplinary analysis. The report characterizes agentic AI systems as those capable of <strong>autonomous goal-setting, self-modification, and strategic planning</strong>, while emphasizing the complex safety and governance challenges that accompany such capabilities.</p>
+<p>At the same time, research on agentic system design has begun to address the <strong>architectural and infrastructure requirements</strong> necessary for reliable deployment. Studies on agent architectures emphasize <strong>modular system design, control loops, and embedded safety guardrails</strong> to manage autonomous behavior [4]. Infrastructure-focused research highlights challenges such as <strong>concurrency control, secure data access, and compute isolation</strong>, which are essential when multiple agents interact with shared data environments [5].</p>
+<p>Practical frameworks are also beginning to emerge. Systems such as <strong>POLARIS</strong> demonstrate how structured planning and governed execution mechanisms can enable auditable and policy-compliant agentic workflows, particularly in enterprise automation contexts [6].</p>
+<p>Finally, advances in <strong>generative AI models</strong> provide the underlying reasoning and instruction-following capabilities that power many agentic systems [7]. These models enable agents to synthesize information, generate plans, and interact with tools in increasingly sophisticated ways.</p>
+<p>Together, this growing body of research highlights both the <strong>promise and the complexity of agentic AI</strong>, pointing to the need for integrated solutions spanning model design, system architecture, infrastructure, and governance. The following sections examine several recent studies that contribute to this evolving understanding of agentic AI systems.</p>
+<hr>
+<h2 id="methodology">Methodology<a hidden class="anchor" aria-hidden="true" href="#methodology">#</a></h2>
+<p>This report employs a <strong>qualitative synthesis methodology</strong>, drawing on a curated selection of recent academic papers identified through systematic searches on arXiv and Tavily databases. Selection criteria included:</p>
+<ul>
+<li><strong>Recency:</strong> Publications from 2025 to early 2026.</li>
+<li><strong>Relevance:</strong> Focus on agentic AI adaptation, safety, governance, and infrastructure.</li>
+<li><strong>Institutional credibility:</strong> Authorship by recognized experts affiliated with leading universities and research institutions.</li>
+</ul>
+<p>The primary sources analyzed are:</p>
+<ul>
+<li><em>International AI Safety Report 2026</em> [1]</li>
+<li><em>POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation</em> [6]</li>
+<li><em>Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance</em> [5]</li>
+<li><em>Architectures for Building Agentic AI</em> [4]</li>
+<li><em>Competing Visions of Ethical AI: A Case Study of OpenAI</em> [3]</li>
+<li><em>Foundations of GenIR</em> [7]</li>
+</ul>
+<p>Each paper was reviewed to identify its <strong>research objectives, technical contributions, and implications for the development of agentic AI systems</strong>. The insights were then synthesized into several thematic areas, including <strong>agentic system design, safety and alignment challenges, governance frameworks, enterprise deployment models, and infrastructure requirements</strong>.</p>
+<p>Because agentic AI remains a rapidly evolving field, this synthesis should be viewed as a <strong>snapshot of emerging research directions rather than a comprehensive survey.</strong></p>
+<hr>
+<h2 id="key-findings-and-results">Key Findings and Results<a hidden class="anchor" aria-hidden="true" href="#key-findings-and-results">#</a></h2>
+<h3 id="1-international-ai-safety-report-2026-1">1. International AI Safety Report 2026 [1]<a hidden class="anchor" aria-hidden="true" href="#1-international-ai-safety-report-2026-1">#</a></h3>
+<p>The International AI Safety Report 2026, authored by Yoshua Bengio and an international panel of experts, provides a comprehensive synthesis of global research on advanced AI systems with particular emphasis on agentic AI. The report defines agentic AI as systems capable of three key characteristics:</p>
+<ul>
+<li><strong>Autonomous goal-setting:</strong> The ability to define and pursue objectives without continuous human prompting.</li>
+<li><strong>Self-modification:</strong> Dynamically adjusting internal parameters, strategies, or behavior based on environmental feedback.</li>
+<li><strong>Strategic planning:</strong> Anticipating future states and optimizing actions to achieve long-term objectives.</li>
+</ul>
+<p>The report identifies several core safety challenges associated with increasing AI autonomy:</p>
+<ul>
+<li><strong>Robustness:</strong> Ensuring reliable behavior across diverse and unforeseen conditions, including adversarial environments.</li>
+<li><strong>Alignment:</strong> Maintaining consistency between AI objectives and human values to prevent harmful or unintended outcomes.</li>
+<li><strong>Transparency:</strong> Developing interpretable decision-making processes to detect deception, manipulation, or unintended behavior.</li>
+<li><strong>Governance:</strong> Establishing international standards, regulatory frameworks, and collaborative oversight mechanisms.</li>
+</ul>
+<p>Importantly, the report situates agentic AI within a broader global governance context, emphasizing that technical advances must be accompanied by coordinated collaboration between academia, industry, governments, and civil society. This macro-level perspective provides the policy and safety framework within which many of the more technical approaches proposed in subsequent research can be understood.</p>
+<h3 id="2-polaris-typed-planning-and-governed-execution-for-agentic-ai-in-back-office-automation-6">2. POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation [6]<a hidden class="anchor" aria-hidden="true" href="#2-polaris-typed-planning-and-governed-execution-for-agentic-ai-in-back-office-automation-6">#</a></h3>
+<p>Moslemi et al. introduce POLARIS, a framework designed to enable <strong>governed agentic AI</strong> in enterprise back-office automation environments where <strong>auditability</strong>, <strong>regulatory compliance</strong>, and <strong>operational predictability</strong> are essential.</p>
+<p>The framework introduces several key mechanisms:</p>
+<ul>
+<li><strong>Typed Plan Synthesis:</strong> Agent actions are represented as structured, typed plans that enforce semantic correctness and reduce execution errors.</li>
+<li><strong>Governed Execution:</strong> Organizational policies and compliance constraints are embedded directly into the execution layer to ensure that agents operate within approved boundaries.</li>
+<li><strong>Empirical Evaluation:</strong> The framework is evaluated on financial document processing tasks, demonstrating improvements in predictability, compliance monitoring, and auditability.</li>
+</ul>
+<p>POLARIS demonstrates how formal planning methods and policy guardrails can be combined to operationalize safe agentic AI in enterprise workflows. By constraining agent behavior through structured planning and governance controls, the framework offers a practical approach to implementing the safety principles emphasized in broader AI governance research.</p>
+<h3 id="3-trustworthy-ai-in-the-agentic-lakehouse-from-concurrency-to-governance-5">3. Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance [5]<a hidden class="anchor" aria-hidden="true" href="#3-trustworthy-ai-in-the-agentic-lakehouse-from-concurrency-to-governance-5">#</a></h3>
+<p>Tagliabue, Bianchi, and Greco address the <strong>infrastructure-level challenges</strong> associated with deploying agentic AI systems in enterprise data environments. Their work introduces Bauplan, an <strong>agent-first lakehouse architecture</strong> designed to support trustworthy and scalable agentic workflows.</p>
+<p>The architecture incorporates several key design principles:</p>
+<ul>
+<li><strong>Data and compute isolation</strong>: Inspired by <strong>multi-version concurrency control (MVCC)</strong> from database systems, the architecture ensures that multiple agents can operate concurrently without corrupting shared data states.</li>
+<li><strong>Narrow API surfaces</strong>: Limiting the actions available to agents through carefully designed APIs reduces the risk of unauthorized operations or unintended behaviors.</li>
+<li><strong>Governance and access control</strong>: The system embeds policy enforcement mechanisms to regulate how agents access and manipulate data.</li>
+</ul>
+<p>By adapting <strong>database concurrency techniques</strong> to agentic systems, the proposed architecture enables <strong>safe multi-agent interaction</strong> with shared data environments. This work highlights that trustworthy agentic AI requires not only algorithmic advances but also robust <strong>data infrastructure and governance mechanisms</strong>.</p>
+<h3 id="4-architectures-for-building-agentic-ai-4">4. Architectures for Building Agentic AI [4]<a hidden class="anchor" aria-hidden="true" href="#4-architectures-for-building-agentic-ai-4">#</a></h3>
+<p>Nowaczyk proposes architectural principles aimed at improving the reliability and safety of agentic AI systems. The paper focuses on <strong>system-level design patterns</strong> that enable controlled autonomy and robust operation.</p>
+<p>Key architectural principles include:</p>
+<ul>
+<li><strong>Modular Design:</strong> Separating components such as perception, reasoning, planning, and execution to facilitate verification, monitoring, and maintenance.</li>
+<li><strong>Control Loops:</strong> Continuous monitoring and feedback mechanisms that allow systems to detect anomalies and adapt safely.</li>
+<li><strong>Safety Mechanisms:</strong> Fail-safes, human overrides, and redundancy to mitigate unintended actions or system failures.</li>
+</ul>
+<p>While frameworks such as POLARIS focus on governed workflow execution, this work provides broader <strong>architectural guidelines for designing agentic systems</strong> capable of operating safely in dynamic environments.</p>
+<h3 id="5-competing-visions-of-ethical-ai-a-case-study-of-openai-3">5. Competing Visions of Ethical AI: A Case Study of OpenAI [3]<a hidden class="anchor" aria-hidden="true" href="#5-competing-visions-of-ethical-ai-a-case-study-of-openai-3">#</a></h3>
+<p>Wilfley et al. examine the <strong>ethical and governance debates</strong> surrounding AI development through a case study of OpenAI. Although the paper is not exclusively focused on agentic AI, it offers valuable insight into the <strong>sociotechnical dynamics shaping AI governance</strong>.</p>
+<p>The authors highlight several key themes:</p>
+<ul>
+<li><strong>Competing ethical frameworks</strong>: Different stakeholders—including researchers, corporations, policymakers, and civil society—often hold conflicting views regarding AI’s risks and benefits.</li>
+<li><strong>Governance tensions</strong>: Rapid technological development frequently outpaces institutional mechanisms for oversight and accountability.</li>
+<li><strong>Transparency and participation</strong>: Effective governance requires inclusive dialogue and transparent decision-making processes.</li>
+</ul>
+<p>As AI systems gain greater autonomy and decision-making capability, these governance tensions become more pronounced. The study therefore underscores the importance of <strong>ethical deliberation and participatory governance</strong> in shaping the responsible deployment of agentic AI technologies.</p>
+<h3 id="6-foundations-of-genir-7">6. Foundations of GenIR [7]<a hidden class="anchor" aria-hidden="true" href="#6-foundations-of-genir-7">#</a></h3>
+<p>Ai, Zhan, and Liu explore the emerging paradigm of <strong>Generative Information Retrieval (GenIR)</strong>, which integrates large generative models with traditional information retrieval techniques.</p>
+<p>The paper highlights several foundational capabilities relevant to agentic AI:</p>
+<ul>
+<li>
+<p><strong>Advanced modeling and reasoning</strong>: Generative models enable systems to synthesize information across multiple sources and follow complex instructions.</p>
+</li>
+<li>
+<p><strong>Dynamic content generation</strong>: Retrieval systems can produce context-aware responses rather than simply returning static documents.</p>
+</li>
+<li>
+<p><strong>Challenges in reliability</strong>: Issues such as hallucination, bias, and verification remain significant challenges for generative retrieval systems.</p>
+</li>
+</ul>
+<p>Although not directly focused on agentic AI, GenIR research provides critical insight into the knowledge access layer that many agentic systems rely upon. These generative retrieval capabilities support reasoning, planning, and adaptive decision-making—core behaviors associated with autonomous agents.</p>
+<hr>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Recent research on agentic AI highlights a significant shift in the evolution of artificial intelligence. As systems gain the ability to <strong>formulate goals, plan actions, and adapt their behavior autonomously</strong>, the challenges of safety, alignment, and governance become increasingly complex. The studies reviewed in this article illustrate that building trustworthy agentic systems requires more than advances in machine learning models—it requires coordinated progress across <strong>architecture, infrastructure, and governance frameworks</strong>.</p>
+<p>Emerging approaches such as <strong>typed planning and governed execution frameworks like POLARIS</strong>, along with <strong>agent-first infrastructure designs such as the agentic lakehouse</strong>, demonstrate promising pathways for operationalizing safe and reliable agentic AI in real-world environments.</p>
+<p>Looking ahead, several research priorities remain critical:</p>
+<ul>
+<li><strong>Empirical validation</strong> of safety mechanisms and governance frameworks in real-world deployments.</li>
+<li><strong>Scalable and adaptive governance models</strong> capable of adapting to rapidly evolving AI capabilities.</li>
+<li><strong>Interdisciplinary collaboration</strong> across computer science, ethics, law, and policy.</li>
+<li><strong>International cooperation</strong> to establish shared norms and oversight mechanisms for advanced AI systems.</li>
+</ul>
+<p>Taken together, these developments suggest that the future of AI will depend not only on creating more powerful models but on <strong>engineering robust autonomous systems that operate safely within human and societal constraints</strong>.</p>
+<p>Agentic AI therefore represents a shift from building <strong>intelligent models</strong> to designing <strong>trustworthy autonomous systems</strong>—a transition that will shape the next phase of artificial intelligence research and deployment.</p>
+<hr>
+<h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
+<p>[1] Yoshua Bengio et al., <em>International AI Safety Report 2026</em>, arXiv:2602.21012v1, 2026-02-24. <a href="https://arxiv.org/abs/2602.21012v1">https://arxiv.org/abs/2602.21012v1</a> <a href="https://arxiv.org/pdf/2602.21012v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[2] Roel Dobbe, <em>AI Safety Response Paper</em>, arXiv:2503.04743v1, 2025-03-10. <a href="https://arxiv.org/abs/2503.04743v1">https://arxiv.org/abs/2503.04743v1</a> <a href="https://arxiv.org/pdf/2503.04743v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[3] Melissa Wilfley et al., <em>Competing Visions of Ethical AI: A Case Study of OpenAI</em>, arXiv:2601.16513v1, 2026-01-20. <a href="https://arxiv.org/abs/2601.16513v1">https://arxiv.org/abs/2601.16513v1</a> <a href="https://arxiv.org/pdf/2601.16513v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[4] Sławomir Nowaczyk, <em>Architectures for Building Agentic AI</em>, arXiv:2512.09458v1, 2025-12-15. <a href="https://arxiv.org/abs/2512.09458v1">https://arxiv.org/abs/2512.09458v1</a> <a href="https://arxiv.org/pdf/2512.09458v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[5] Jacopo Tagliabue, Federico Bianchi, Ciro Greco, <em>Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance</em>, arXiv:2511.16402v1, 2025-11-20. <a href="https://arxiv.org/abs/2511.16402v1">https://arxiv.org/abs/2511.16402v1</a> <a href="https://arxiv.org/pdf/2511.16402v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[6] Zahra Moslemi et al., <em>POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation</em>, arXiv:2601.11816v1, 2026-01-16. <a href="https://arxiv.org/abs/2601.11816v1">https://arxiv.org/abs/2601.11816v1</a> <a href="https://arxiv.org/pdf/2601.11816v1">PDF</a> (target=&quot;_blank&quot;)</p>
+<p>[7] Qingyao Ai, Jingtao Zhan, Yiqun Liu, <em>Foundations of GenIR</em>, arXiv:2501.02842v1, 2025-01-06. <a href="https://arxiv.org/abs/2501.02842v1">https://arxiv.org/abs/2501.02842v1</a> <a href="https://arxiv.org/pdf/2501.02842v1">PDF</a> (target=&quot;_blank&quot;)</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/agentic-ai/">Agentic AI</a></li>
+      <li><a href="http://localhost:1313/tags/ai-safety/">AI Safety</a></li>
+      <li><a href="http://localhost:1313/tags/ai-governance/">AI Governance</a></li>
+      <li><a href="http://localhost:1313/tags/autonomous-systems/">Autonomous Systems</a></li>
+      <li><a href="http://localhost:1313/tags/ai-research/">AI Research</a></li>
+      <li><a href="http://localhost:1313/tags/alignment/">Alignment</a></li>
+      <li><a href="http://localhost:1313/tags/infrastructure/">Infrastructure</a></li>
+      <li><a href="http://localhost:1313/tags/enterprise-ai/">Enterprise AI</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">Karan Raj Sharma</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

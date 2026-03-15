@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared</title>
-      <link>http://localhost:1313/blog/cloud-services/</link>
+      <title>What Recent Agentic AI Research (2025–2026) Reveals About the Future of Autonomous Systems</title>
+      <link>http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/cloud-services/</guid>
-      <description>Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.</description>
+      <guid>http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/</guid>
+      <description>This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems.</description>
     </item>
     
     <item>
@@ -32,6 +32,15 @@
       
       <guid>http://localhost:1313/projects/ml-boilerplate/</guid>
       <description>An open-source, production-ready MLOps framework that accelerates ML development from experimentation to deployment with built-in monitoring, data connectors, and CI/CD pipelines.</description>
+    </item>
+    
+    <item>
+      <title>The Ultimate Cloud Services Cheat Sheet: AWS, GCP, Azure Compared</title>
+      <link>http://localhost:1313/blog/cloud-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/cloud-services/</guid>
+      <description>Your go-to reference for cloud service equivalents across AWS, GCP, and Azure. Compare 25&#43; services side-by-side with detailed descriptions and guidance for building agentic AI systems.</description>
     </item>
     
     <item>

@@ -15,6 +15,8 @@
   </url><url>
     <loc>http://localhost:1313/blog/avoiding-pitfalls-in-ai-product/</loc>
   </url><url>
+    <loc>http://localhost:1313/blog/advances-and-challenges-in-agentic-ai/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/exl-2/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/sagility/</loc>
@@ -57,17 +59,27 @@
   </url><url>
     <loc>http://localhost:1313/tags/ai-glossary/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ai-governance/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/ai-key-terms/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/ai-leaders/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/ai-products/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ai-research/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-safety/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/ai-tools/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/alignment/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/analytics/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/automation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/autonomous-systems/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/aws/</loc>
   </url><url>
@@ -120,6 +132,8 @@
     <loc>http://localhost:1313/tags/green-belt/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/healthcare-payer-operations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/infrastructure/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/intelligent-process-automation-ipa/</loc>
   </url><url>

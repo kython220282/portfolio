@@ -30,5 +30,5 @@ None of these applications are designed to permanently store user data. Any info
 Live app: <a href="https://kython220282.github.io/notes-app/" target="_blank" rel="noopener noreferrer">Notes Application</a>
 
 2. **Business Email Template Tool**: The application provides predefined email structures that help users quickly generate common business emails without starting from a blank page. By selecting the right context and adding a few inputs, the tool creates a ready-to-use draft that can be refined before sending. Technically, the app is lightweight with hard-coded templates and simple client-side logic, demonstrating how small productivity tools can streamline everyday communication.
-Github-link: <a href ="https://github.com/kython220282/Vibecoded-Apps/tree/main/email-draft-tool" target="_blank" rel="noopener noreferrer">Notes Application</a>
+Github-link: <a href ="https://github.com/kython220282/Vibecoded-Apps/tree/main/email-draft-tool" target="_blank" rel="noopener noreferrer">Email Draft Application</a>
 

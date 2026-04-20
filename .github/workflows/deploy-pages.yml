@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "portfolio/**"
-      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 env:
@@ -43,13 +40,12 @@ jobs:
           hugo version
 
       - name: Build with Hugo
-        working-directory: ./portfolio
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./portfolio/public
+          path: ./public
 
   deploy:
     environment:

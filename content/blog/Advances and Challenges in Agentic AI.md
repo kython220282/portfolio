@@ -5,7 +5,7 @@ keywords: ["agentic AI", "autonomous agents", "AI safety", "alignment", "AI gove
 tags: ["Agentic AI", "AI Safety", "AI Governance", "Autonomous Systems", "AI Research", "Alignment", "Infrastructure", "Enterprise AI"]
 weight: 1
 cover:
-  image: "/blog/agentic-ai-research-2025-2026/cover.png"
+  image: "blog/agentic-ai-research-2025-2026/cover.png"
 dateString: March 2026
 draft: false
 meta_title: "Advances and Challenges in Agentic AI: A Synthesis of 2025–2026 Research"

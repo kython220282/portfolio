@@ -5,7 +5,7 @@ keywords: ["Why AI Products fail", "Ensure AI Products Success"]
 tags: ["AI Products", "Product Development", "Ethical AI", "Design Best Practices", "AI Leaders"]
 weight: 5
 cover:
-  image: "/blog/avoiding-pitfalls-in-AI-Product/cover.png"
+  image: "blog/avoiding-pitfalls-in-AI-Product/cover.png"
 
 dateString: November 2025
 draft: false

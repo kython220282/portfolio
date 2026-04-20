@@ -5,7 +5,7 @@ keywords: ["Vibe Coding", "GitHub Copilot", "DeepLearning.AI", "AI Apps"]
 tags: ["Vibe Coding", "GitHub Copilot", "DeepLearning.AI"]
 weight: 2
 cover:
-  image: "/blog/vibe-code/vibe-code.png"
+  image: "blog/vibe-code/vibe-code.png"
 
 date: 2026-03-11
 dateString: March 2026

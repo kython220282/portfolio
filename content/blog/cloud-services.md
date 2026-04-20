@@ -5,7 +5,7 @@ keywords: ["AWS", "Azure", "GCP", "Cloud Services Cheat Sheet", "Cloud Compariso
 tags: ["AWS", "Azure", "GCP", "Agentic AI", "AI Agents", "Cloud Architecture", "Machine Learning", "LLMOps"]
 weight: 2
 cover:
-  image: "/blog/cloud-comparison/cloud.png"
+  image: "blog/cloud-comparison/cloud.png"
 
 dateString: February 2026
 draft: false

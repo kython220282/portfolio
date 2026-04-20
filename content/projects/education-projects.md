@@ -5,7 +5,7 @@ keywords: ["Education", "Machine Learning", "Data Science", "AI Engineering", "P
 tags: ["Education", "Machine Learning", "Data Science", "Projects", "AI Engineering", "Python"]
 weight: 2
 cover:
-  image: "/projects/education-projects/cover.png"
+  image: "projects/education-projects/cover.png"
 
 dateString: March 2026
 draft: True

@@ -5,7 +5,7 @@ keywords: ["Top AI terms", "Must know AI terms"]
 tags: ["AI Glossary", "AI Key Terms"]
 weight: 3
 cover:
-  image: "/blog/ai-glossary/ai_wordcloud.jpeg"
+  image: "blog/ai-glossary/ai_wordcloud.jpeg"
 dateString: November 2025
 draft: false
 meta_title: "AI Glossary"

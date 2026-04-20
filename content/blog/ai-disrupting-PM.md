@@ -5,7 +5,7 @@ keywords: ["artificial intelligence", "project management", "AI automation", "pr
 tags: ["AI", "Project Management", "Digital Transformation", "Automation", "AI Tools", "Enterprise AI", "PMO", "Change Management"]
 weight: 4
 cover:
-  image: "/blog/ai-disrupting-PM/Designer.png"
+  image: "blog/ai-disrupting-PM/Designer.png"
 dateString: November 2025
 draft: false
 meta_title: "How AI Is Disrupting Project Management?"

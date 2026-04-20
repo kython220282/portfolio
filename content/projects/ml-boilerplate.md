@@ -5,7 +5,7 @@ keywords: ["MLOps", "Machine Learning", "MLflow", "FastAPI", "Production ML", "D
 tags: ["MLOps", "Machine Learning", "Open Source", "Python", "AI Engineering", "DevOps"]
 weight: 3
 cover:
-  image: "/blog/ml-boilerplate/cover.png"
+  image: "blog/ml-boilerplate/cover.png"
 
 dateString: February 2026
 draft: false

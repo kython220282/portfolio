@@ -5,7 +5,7 @@ keywords: ["Document Classification", "Document Tagging","LLM Cost Optimization"
 tags: ["Document Classification", "LLMs", "Agentic AI", "MLOps", "LLMOps", "AI Engineering"]
 weight: 1
 cover:
-  image: "/blog/doc-tagging/cover.png"
+  image: "blog/doc-tagging/cover.png"
 
 dateString: January 2026
 draft: True

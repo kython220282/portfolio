@@ -3,7 +3,7 @@ title: "What Recent Agentic AI Research (2025–2026) Reveals About the Future o
 description: "This article reviews six recent papers from the emerging field of agentic AI research (2025–2026) and distills the key technical and governance insights shaping the next generation of autonomous AI systems."
 keywords: ["agentic AI", "autonomous agents", "AI safety", "alignment", "AI governance", "transparency", "infrastructure", "self-directed goal pursuit", "AI adaptation", "enterprise automation"]
 tags: ["Agentic AI", "AI Safety", "AI Governance", "Autonomous Systems", "AI Research", "Alignment", "Infrastructure", "Enterprise AI"]
-weight: 1
+weight: 2
 cover:
   image: "blog/agentic-ai-research-2025-2026/cover.png"
 dateString: March 2026

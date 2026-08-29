@@ -1,0 +1,2 @@
+{{ $zoomScript := resources.Get "js/zoom-images.js" | js.Build | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $zoomScript.RelPermalink }}" integrity="{{ $zoomScript.Data.Integrity }}"></script>

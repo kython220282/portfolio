@@ -257,4 +257,4 @@ If the agent misunderstands or ignores a **prompt directive**, the **permission 
 The goal of agentic security is not to create a system that requires a perfectly aligned LLM. The goal is to build an execution harness so resilient that even when the LLM makes an adversarial mistake, your system state and credentials remain untouched[cite: 2, 3, 4].  
 
 ## Architecture Design - Printable
-![Defense in Depth](/blog/claude-code-guardrails/defense-in-depth-2.png)
+![Defense in Depth](/portfolio/blog/claude-code-guardrails/defense-in-depth-2.png)

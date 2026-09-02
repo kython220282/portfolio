@@ -3,7 +3,7 @@ title: "Claude Code Guardrail: Architecting Defense-in-Depth for Agentic Coding"
 description: "A deep dive into securing autonomous CLI coding agents using a three-layer defense-in-depth framework—combining advisory policies, scoped permissions, and deterministic pre-execution hooks."
 keywords: ["Agentic Guardrails", "Claude Code Guardrails", "AI Security", "DevSecOps", "Policy-as-Code", "Autonomous Coding Agents"]
 tags: ["AI Security", "DevSecOps", "Claude Code", "Agentic AI", "AI Architecture", "Software Engineering"]
-weight: 1
+weight: 2
 cover:
   image: "blog/claude-code-guardrails/defense-in-depth.png"
 

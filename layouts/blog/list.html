@@ -33,6 +33,8 @@
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
+{{- $pages = $pages.ByParam "meta_date" }}
+{{- $pages = $pages.Reverse }}
 {{- $paginator := .Paginate $pages }}
 
 {{- $term := .Data.Term }}

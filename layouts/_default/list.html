@@ -40,6 +40,8 @@
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = $pages.ByParam "meta_date" }}
+{{- $pages = $pages.Reverse }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}

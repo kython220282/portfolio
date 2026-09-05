@@ -139,7 +139,31 @@ For each term, we’ll provide:
 - **I:** AI systems capable of operating independently without human intervention. Self-driving cars navigate and make driving decisions autonomously.
 - **L:** AI that can work by itself, like a self-driving car that knows where to go without a driver.
 -------------
+**Agentic Saga Pattern**
+- **I:** A distributed transaction method where AI agents coordinate tasks and automatically trigger rollback actions if a step fails, avoiding centralized database locks.
+- **L:** Like a group booking a trip: if the hotel sells out, the person booking flights automatically cancels the tickets so no money is lost.
+-------------
+**Reconstructable Decision Graph (RDG)**
+- **I:** An immutable audit framework that maps an AI's decision process into a graph, logging exact inputs and logic paths so auditors can perfectly replay the action later.
+- **L:** A detailed receipt for a recipe. If a cake tastes wrong, you can check the exact measurements and steps used to see what happened.
+-------------
+**Hierarchical Model Tiering**
+- **I:** A routing strategy that sends simple tasks to fast, cheap AI models, while escalating complex reasoning tasks to larger, more powerful models to optimize cost and speed.
+- **L:** Like a hospital: triage nurses handle basic scrapes quickly, but complex surgeries get routed to a specialized doctor.
+-------------
+**Multi-Agent Circuit Breakers**
+- **I:** Automated safety switches that monitor AI agents and halt execution if they detect infinite loops, cascading hallucinations, or latency spikes, preventing runaway cloud costs.
+- **L:** Like a household fuse box: if too many appliances overwhelm the system, it automatically cuts the power before a wire catches fire.
+-------------
+**Shadow-State Adapters**
+**I:** Integration layers that maintain a synced replica of legacy mainframe data, allowing fast AI agents to query information safely without crashing fragile core systems.
+**L:** Like a personal assistant who handles your busy schedule so dozens of people don't constantly interrupt and overwhelm you directly.
+-------------
+**Change Data Capture (CDC)**
+**I:** A technology that tracks and streams row-level database changes in real-time, keeping downstream AI models synced without requiring heavy, slow batch queries.
+**L:** A smart sensor on your mailbox that pings your phone the second a letter arrives, saving you from walking outside to check it every hour.
+-------------
 
-**Last Updated:** November 11, 2025
+**Last Updated:** Septemer 05, 2026
 
 **Author:** Karan Raj Sharma

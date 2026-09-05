@@ -17,7 +17,7 @@ meta_date: 2026-09-05
 ---
 ## Exec Summary
 
-AI models run on probabilities. Back-office banking runs on zero-tolerance accuracy. When moving from simple chatbots to autonomous multi-agent systems for work like AML checks or loan underwriting, that gap becomes a real problem. You cannot prompt-engineer your way out of it. It requires treating agent deployment like distributed software engineering.
+AI models run on probabilities. Back-office banking runs on zero-tolerance accuracy. When moving from simple chatbots to autonomous multi-agent systems for work like AML checks or loan underwriting, that gap becomes a real problem. You cannot prompt-engineer your way out of it. It requires treating agent deployment like **distributed software engineering**.
 
 To keep systems stable, engineering teams use a dual-engine design. Agents handle messy documents, read context, and draft structured proposals. They do not write to the database. Deterministic rule engines validate those proposals before any state change happens. Pair that with short-lived security tokens for every agent task and append-only decision logs, and you get an audit trail regulators can actually inspect.
 
@@ -34,7 +34,7 @@ It sounds promising. But there is a catch.
 
 Generative AI ouputs are probabilistic. Financial ledgers, on the other hand, demand exact math and strict auditability. Put the two together without guardrails, and things fall apart fast.
 
-Building these systems isn't an exercise in prompt engineering. It is software engineering for distributed microservices. Below are the core technical considerations system architects and engineering leaders must address to build reliable systems.
+Building these systems isn't an exercise in prompt engineering. It is **software engineering for distributed microservices**. Below are the core technical considerations system architects and engineering leaders must address to build reliable systems.
 
 ---
 
@@ -138,7 +138,7 @@ Agents also go rogue. Sometimes two agents get stuck talking in circles, burning
 
 Enter **Multi-Agent Circuit Breakers**.
 
-Middle-layer monitors look for semantic loops. If Agent A and Agent B exchange four messages without adding new information, the breaker trips. The system kills the thread and dumps the context into a Dead-Letter Queue (DLQ) so developers can figure out what went wrong.
+Middle-layer monitors look for semantic loops. If Agent A and Agent B exchange four messages without adding new information, the breaker trips. The system kills the thread and dumps the context into a **Dead-Letter Queue (DLQ)** so developers can figure out what went wrong.
 
 ---
 
@@ -178,7 +178,7 @@ You can't hook an AI agent directly to a 40-year-old mainframe. Old systems don'
 
 Instead, engineers build **Shadow-State Adapters**.
 
-Agents never query mainframes live. They read from fast, in-memory caches updated via Change Data Capture (CDC). 
+Agents never query mainframes live. They read from fast, in-memory caches updated via **Change Data Capture (CDC)**. 
 
 When an agent outputs a decision, it writes a JSON payload to a Kafka topic. An adapter service picks up that payload, formats it into an old-school mainframe transaction, and sends it down the wire.
 
@@ -190,7 +190,7 @@ Getting multi-agent systems into production isn't about finding a better prompt.
 
 It's about classic, disciplined systems engineering.
 
-When you pair probabilistic AI with deterministic rules, zero-trust security, and hard circuit breakers, autonomous systems actually work in finance. The teams building with these microservice design patterns today are the ones who will scale operations tomorrow without breaking their tech stack—or their regulatory standing.
+When you pair probabilistic AI with **deterministic rules, zero-trust security, and hard circuit breakers**, autonomous systems actually work in finance. The teams building with these microservice design patterns today are the ones who will scale operations tomorrow without breaking their tech stack—or their regulatory standing.
 
 ---
 

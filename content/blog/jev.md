@@ -7,7 +7,7 @@ weight: 1
 cover:
   image: "blog/jev/jev.png"
 dateString: September 2026
-draft: false
+draft: True
 meta_title: "TypesafeAI vs LLMs: Neuro-Symbolic Execution Engines"
 meta_description: "Exposing the trade-offs, economics, and failure modes of Jev (TypesafeAI) runtimes vs probabilistic LLMs in multi-agent production systems."
 meta_author: "Karan Raj Sharma"

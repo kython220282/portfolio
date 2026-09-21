@@ -8,7 +8,7 @@ cover:
   image: "blog/bfsi/bfsi.png"
 
 dateString: September 2026
-draft: false
+draft: True
 meta_title: "Engineering Financial-Grade Autonomy for Multi-Agent Systems in BFSI"
 meta_description: "Learn how deterministic controls, zero-trust security, consensus protocols, circuit breakers, and legacy integration make multi-agent systems reliable for BFSI back offices."
 
